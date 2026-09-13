@@ -1,0 +1,67 @@
+AI Öğrenme Takvimimiz — 42 Gün
+Gün	Konu	Gün sonunda hedef
+1 ✅	Python tekrar: list, loop, if, function, append, len, max/average	Basit algoritmaları kendin yazabilmek
+2	NumPy giriş: array, ndim, shape, dtype, indexing	NumPy array'lerini rahat okuyabilmek
+3	NumPy slicing, reshape, flatten, transpose	Array şekilleriyle oynayabilmek
+4	NumPy matematik, axis, mean/std/min/max, boolean filtering	NumPy ile veri işleyebilmek
+5	Pandas giriş: Series, DataFrame, CSV, head, info, describe	Dataset okuyabilmek
+6	Pandas: sütun/satır seçme, loc, iloc, filtreleme	Dataset içinde veri seçebilmek
+7	Pandas: missing values, duplicates, sort, groupby	Temel veri temizliği yapmak
+8	Pandas groupby, agg, merge, map/apply	Birden fazla veri işlemini birleştirmek
+9	Matplotlib + grafik okuma	Veriyi görselleştirebilmek
+10	İstatistik temeli: mean, median, variance, std, quartile, outlier	ML'deki istatistik terimlerini anlamak
+11	Korelasyon, covariance, dağılımlar, boxplot	Veriler arasındaki ilişkiyi yorumlamak
+12	ML'e giriş: feature, target, X, y, supervised/unsupervised	ML problemini parçalara ayırabilmek
+13	train_test_split, training/test mantığı	Modelin neden ayrı veride test edildiğini anlamak
+14	Linear Regression	İlk modeli baştan sona kurmak
+15	MAE, MSE, RMSE, R²	Regression modelini değerlendirmek
+16	Polynomial Regression	Doğrusal olmayan ilişkileri modellemek
+17	Overfitting / underfitting	Modelin ezberleyip ezberlemediğini anlamak
+18	StandardScaler, normalization, fit, transform, fit_transform	Preprocessing mantığını tamamen oturtmak
+19	Encoding: categorical → numerical	Kategorik verileri modele hazırlamak
+20	Regression mini projesi	Dataset → preprocessing → model → evaluation yapmak
+21	Logistic Regression + sigmoid	Classification'a geçmek
+22	Confusion Matrix: TP, TN, FP, FN	Classification sonucunu okumak
+23	Accuracy, Precision, Recall, F1	Doğru metriği seçmek
+24	KNN	Distance tabanlı modeli anlamak
+25	Decision Tree	Karar ağacının nasıl karar verdiğini anlamak
+26	Random Forest	Ensemble mantığını öğrenmek
+27	Cross Validation	Modeli daha güvenilir test etmek
+28	Pipeline + GridSearch	ML workflow'unu profesyonel hale getirmek
+29	K-Means clustering	Unsupervised learning mantığını öğrenmek
+30	PCA	Boyut azaltma mantığını anlamak
+31	ML final projesi	Baştan sona bağımsız ML projesi yapmak
+32	Perceptron + neuron	Neural network'ün en temel yapı taşını anlamak
+33	Weight, bias, activation functions	Bir neuron'un nasıl karar verdiğini anlamak
+34	Hidden layers + forward propagation	Neural network içinde verinin nasıl aktığını görmek
+35	Loss function + Gradient Descent	Network'ün nasıl öğrendiğini anlamak
+36	Backpropagation	Hataların weight'leri nasıl değiştirdiğini anlamak
+37	PyTorch tensors + temel kullanım	Deep Learning koduna geçmek
+38	Dataset, DataLoader, batch, epoch, optimizer	Training loop mantığını öğrenmek
+39	PyTorch ile ilk Neural Network	Kendi neural network'ünü eğitmek
+40	NLP: token, vocabulary, embedding	Metnin modele nasıl dönüştüğünü anlamak
+41	Attention + Self-Attention + Transformer	Transformer mimarisini gerçekten anlamak
+42	Hugging Face + pretrained model + mini AI uygulaması	Modern bir AI modelini uygulamada kullanmak
+Sonrası
+günde eğitim bitmiş olmayacak; temel eğitim tamamlanmış olacak. Ondan sonra artık konu konu dolaşmak yerine proje dönemine geçeceğiz.
+
+İlk büyük hedefimiz şöyle olacak:
+
+Python → NumPy → Pandas → ML → Neural Networks → PyTorch → NLP → Attention → Transformer → Hugging Face
+
+Yani sana daha önce gösterilen train_test_split, fit_transform, confusion matrix, perceptron, batch size ve Transformer gibi parçalar artık birbirinden bağımsız ezberler olmayacak; neden o sırada geldiklerini anlayacaksın.
+
+Her gün nasıl çalışacağız?
+
+Bir günün formatı da sabit olsun:
+
+Kısa teori → beraber 2-3 örnek → sana küçük görevler → final challenge → hatalarını inceleme.
+
+Sen kodu mümkün olduğunca kendin yazacaksın. Ben hemen cevabı vermek yerine önce yönlendireceğim. Bir konuyu zaten biliyorsan da günü çöpe atmayacağız; görevleri zorlaştırıp hızlı geçeceğiz.
+
+Ve şu an durumumuz net:
+
+Gün 1 ✅ tamamlandı.
+Sıradaki: Gün 2 — NumPy giriş.
+
+Yarın/bir sonraki çalışmada bana sadece “2. güne başlayalım” demen yeterli. Bu takvimi bundan sonra sabit referansımız olarak kullanacağım.
