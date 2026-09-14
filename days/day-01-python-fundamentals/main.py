@@ -124,7 +124,7 @@ print(avg_temp)
 print(f'we have {len(higher_temps)} temps bigger than average.')
 
 
-
+ 
 
 
 #task 3
