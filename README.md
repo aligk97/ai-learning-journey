@@ -1,12 +1,14 @@
-# ai-learning-journey
-My journey from Python fundamentals to Machine Learning, Deep Learning and modern AI.
+# AI Learning Journey
+
+My journey from Python fundamentals to Machine Learning, Deep Learning, and modern AI.
+
 # AI Learning Roadmap — 42 Days
 
 | Day | Topic                                                              | Goal by the end of the day                                  |
 | --- | ------------------------------------------------------------------ | ----------------------------------------------------------- |
 | 1 ✅ | Python review: list, loop, if, function, append, len, max/average  | Be able to write simple algorithms on your own              |
-| 2   | NumPy basics: array, ndim, shape, dtype, indexing                  | Read and understand NumPy arrays comfortably                |
-| 3   | NumPy slicing, reshape, flatten, transpose                         | Manipulate array shapes                                     |
+| 2 ✅ | NumPy basics: array, ndim, shape, dtype, indexing                  | Read and understand NumPy arrays comfortably                |
+| 3 ✅ | NumPy slicing, reshape, flatten, transpose                         | Manipulate array shapes                                     |
 | 4   | NumPy math, axis, mean/std/min/max, boolean filtering              | Process data with NumPy                                     |
 | 5   | Pandas basics: Series, DataFrame, CSV, head, info, describe        | Read and inspect datasets                                   |
 | 6   | Pandas: selecting rows/columns, loc, iloc, filtering               | Select data from a dataset                                  |
@@ -80,7 +82,7 @@ You will understand **why each concept appears at that point**, how it connects 
 
 The daily format will remain consistent:
 
-**Short theory → 2-3 examples together → small tasks → final challenge → error review**
+**Short theory → 2–3 examples together → small tasks → final challenge → error review**
 
 You will write as much of the code as possible **on your own**.
 
@@ -92,28 +94,33 @@ If you already know a topic, we will not waste the day repeating it. We will inc
 
 ## Current Progress
 
-**Day 1 ✅ Completed**
-**Day 2 ✅ Completed**
-**Day 3 ✅ Completed**
+**Day 1 ✅ Completed — Python Fundamentals**
+
+**Day 2 ✅ Completed — NumPy Basics**
+
+**Day 3 ✅ Completed — NumPy Slicing & Array Manipulation**
 
 ### Next
 
-**Day 2 — NumPy Basics**
+**Day 4 — NumPy Math, Axis & Boolean Filtering**
 
 Topics:
 
-* `array`
-* `ndim`
-* `shape`
-* `dtype`
-* indexing
+* mathematical operations
+* `axis`
+* `mean()`
+* `std()`
+* `min()`
+* `max()`
+* boolean filtering
+* combining conditions
 
 Goal:
 
-**Read and understand NumPy arrays comfortably.**
+**Process and analyze data efficiently with NumPy.**
 
 For the next study session, you only need to say:
 
-> **“Let’s start Day 2.”**
+> **“Let’s start Day 4.”**
 
 This roadmap will remain our **fixed reference** from now on.
