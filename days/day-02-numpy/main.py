@@ -74,14 +74,14 @@ scores = np.array([
 student_averages = scores.mean(axis=1)
 print('average', student_averages)
 
-passed_students = scores[scores.mean(axis=1) >= 70]
+passed_students = scores[student_averages >= 70]
 print('all exams of passed students')
 print(passed_students)
 
 passed_averages = passed_students.mean(axis=1)
 print('passed averages')
 print(passed_averages)
-
+ 
 print("max score of class", scores.max())
 
 print('average of class', scores.mean(axis=0))
