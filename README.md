@@ -93,6 +93,8 @@ If you already know a topic, we will not waste the day repeating it. We will inc
 ## Current Progress
 
 **Day 1 ✅ Completed**
+**Day 2 ✅ Completed**
+**Day 3 ✅ Completed**
 
 ### Next
 
