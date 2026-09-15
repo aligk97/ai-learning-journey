@@ -10,7 +10,7 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 | 2 ✅ | NumPy basics: array, ndim, shape, dtype, indexing                  | Read and understand NumPy arrays comfortably                |
 | 3 ✅ | NumPy slicing, reshape, flatten, transpose                         | Manipulate array shapes                                     |
 | 4 ✅ | NumPy math, axis, mean/std/min/max, boolean filtering              | Process data with NumPy                                     |
-| 5   | Pandas basics: Series, DataFrame, CSV, head, info, describe        | Read and inspect datasets                                   |
+| 5 ✅ | Pandas basics: Series, DataFrame, CSV, head, info, describe        | Read and inspect datasets                                   |
 | 6   | Pandas: selecting rows/columns, loc, iloc, filtering               | Select data from a dataset                                  |
 | 7   | Pandas: missing values, duplicates, sort, groupby                  | Perform basic data cleaning                                 |
 | 8   | Pandas: groupby, agg, merge, map/apply                             | Combine multiple data operations                            |
@@ -113,26 +113,27 @@ This makes each day easy to review directly on GitHub.
 
 **Day 4 ✅ Completed — NumPy Math, Filtering & Statistics**
 
+**Day 5 ✅ Completed — Pandas Basics**
+
 ### Next
 
-**Day 5 — Pandas Basics**
+**Day 6 — Pandas Selection, loc/iloc & Filtering**
 
 Topics:
 
-* `Series`
-* `DataFrame`
-* CSV reading with `pd.read_csv()`
-* `head()` / `tail()`
-* `shape`, `columns`, `dtypes`
-* `info()`
-* `describe()`
+* Row and column selection
+* `loc`
+* `iloc`
+* Slicing
+* Boolean filtering
+* Multiple conditions with `&`, `|`, `~`
 
 Goal:
 
-**Read and inspect datasets with Pandas.**
+**Select data from a dataset comfortably.**
 
 For the next study session, you only need to say:
 
-> **“Let’s start Day 5.”**
+> **“Let’s start Day 6.”**
 
 This roadmap will remain our **fixed reference** from now on.
