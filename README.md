@@ -9,7 +9,7 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 | 1 ✅ | Python review: list, loop, if, function, append, len, max/average  | Be able to write simple algorithms on your own              |
 | 2 ✅ | NumPy basics: array, ndim, shape, dtype, indexing                  | Read and understand NumPy arrays comfortably                |
 | 3 ✅ | NumPy slicing, reshape, flatten, transpose                         | Manipulate array shapes                                     |
-| 4   | NumPy math, axis, mean/std/min/max, boolean filtering              | Process data with NumPy                                     |
+| 4 ✅ | NumPy math, axis, mean/std/min/max, boolean filtering              | Process data with NumPy                                     |
 | 5   | Pandas basics: Series, DataFrame, CSV, head, info, describe        | Read and inspect datasets                                   |
 | 6   | Pandas: selecting rows/columns, loc, iloc, filtering               | Select data from a dataset                                  |
 | 7   | Pandas: missing values, duplicates, sort, groupby                  | Perform basic data cleaning                                 |
@@ -92,6 +92,17 @@ If you already know a topic, we will not waste the day repeating it. We will inc
 
 ---
 
+## Daily Notes Standard
+
+Each completed day folder will include:
+
+* `main.py` — the code written during that day
+* `README.md` — short lesson notes covering the goal, topics, key concepts, core commands/functions, mini tasks, and day-end summary
+
+This makes each day easy to review directly on GitHub.
+
+---
+
 ## Current Progress
 
 **Day 1 ✅ Completed — Python Fundamentals**
@@ -100,27 +111,28 @@ If you already know a topic, we will not waste the day repeating it. We will inc
 
 **Day 3 ✅ Completed — NumPy Slicing & Array Manipulation**
 
+**Day 4 ✅ Completed — NumPy Math, Filtering & Statistics**
+
 ### Next
 
-**Day 4 — NumPy Math, Axis & Boolean Filtering**
+**Day 5 — Pandas Basics**
 
 Topics:
 
-* mathematical operations
-* `axis`
-* `mean()`
-* `std()`
-* `min()`
-* `max()`
-* boolean filtering
-* combining conditions
+* `Series`
+* `DataFrame`
+* CSV reading with `pd.read_csv()`
+* `head()` / `tail()`
+* `shape`, `columns`, `dtypes`
+* `info()`
+* `describe()`
 
 Goal:
 
-**Process and analyze data efficiently with NumPy.**
+**Read and inspect datasets with Pandas.**
 
 For the next study session, you only need to say:
 
-> **“Let’s start Day 4.”**
+> **“Let’s start Day 5.”**
 
 This roadmap will remain our **fixed reference** from now on.
