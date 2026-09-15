@@ -1,28 +1,28 @@
 # Day 01 - Python Fundamentals
 
-## Gunun Hedefi
+## Günün Hedefi
 
-Python ile basit algoritmalari tek basina yazabilmek: liste uzerinde gezmek, kosul kurmak, fonksiyon yazmak, veri filtrelemek ve temel hesaplamalar yapmak.
+Python ile basit algoritmaları tek başına yazabilmek: liste üzerinde gezmek, koşul kurmak, fonksiyon yazmak, veri filtrelemek ve temel hesaplamalar yapmak.
 
-## Islenen Konular
+## İşlenen Konular
 
-- Liste olusturma ve listeye eleman ekleme
-- `for` dongusu ile veriler uzerinde gezinme
-- `if`, `elif`, `else` ile kosullu karar verme
-- Kullanicidan veri alma ve sayiya cevirme
-- Fonksiyon tanimlama
-- Dictionary ile isim-deger eslestirme
-- Liste icinden kosula gore veri filtreleme
-- En kucuk / en buyuk degeri manuel bulma
-- Frekans sayaci mantigi
+- Liste oluşturma ve listeye eleman ekleme
+- `for` döngüsü ile veriler üzerinde gezinme
+- `if`, `elif`, `else` ile koşullu karar verme
+- Kullanıcıdan veri alma ve sayıya çevirme
+- Fonksiyon tanımlama
+- Dictionary ile isim-değer eşleştirme
+- Liste içinden koşula göre veri filtreleme
+- En küçük / en büyük değeri manuel bulma
+- Frekans sayacı mantığı
 
-## Onemli Kavramlar
+## Önemli Kavramlar
 
-- **Accumulator:** Bir toplam veya sonuc degerini dongu icinde adim adim buyutme.
-- **Filtering:** Bir listedeki elemanlari belirli bir kosula gore secme.
-- **Counter dictionary:** Bir degerin kac kez gectigini dictionary ile sayma.
-- **Nested list:** Her satiri kendi icinde bir liste olan veri yapisi.
-- **Reusable function:** Ayni hesaplamayi tekrar kullanmak icin fonksiyon yazma.
+- **Accumulator:** Bir toplam veya sonuç değerini döngü içinde adım adım büyütme.
+- **Filtering:** Bir listedeki elemanları belirli bir koşula göre seçme.
+- **Counter dictionary:** Bir değerin kaç kez geçtiğini dictionary ile sayma.
+- **Nested list:** Her satırı kendi içinde bir liste olan veri yapısı.
+- **Reusable function:** Aynı hesaplamayı tekrar kullanmak için fonksiyon yazma.
 
 ## Temel Komutlar / Fonksiyonlar
 
@@ -38,18 +38,18 @@ Python ile basit algoritmalari tek basina yazabilmek: liste uzerinde gezmek, kos
 
 ## Mini Tasklar
 
-- Cift sayilari bulup toplamlarini hesaplama
-- Girilen sayinin pozitif, negatif veya sifir oldugunu yazdirma
+- Çift sayıları bulup toplamlarını hesaplama
+- Girilen sayının pozitif, negatif veya sıfır olduğunu yazdırma
 - Ortalama hesaplayan `average()` fonksiyonu yazma
-- Ogrencilerin sinav ortalamalarini hesaplama
-- Listedeki en kucuk ve en buyuk sayiyi bulma
-- Satin alma yapan kisilerin yas ortalamasini hesaplama
-- Sayilarin kac kez tekrar ettigini bulma
-- Ortalamanin ustundeki sicakliklari sayma
-- Yasi 18'den buyuk ve aktif olan kullanicilari filtreleme
+- Öğrencilerin sınav ortalamalarını hesaplama
+- Listedeki en küçük ve en büyük sayıyı bulma
+- Satın alma yapan kişilerin yaş ortalamasını hesaplama
+- Sayıların kaç kez tekrar ettiğini bulma
+- Ortalamanın üstündeki sıcaklıkları sayma
+- Yaşı 18'den büyük ve aktif olan kullanıcıları filtreleme
 
-## Gun Sonu Ozeti
+## Gün Sonu Özeti
 
-Bu gunde Python'un temel kontrol yapilari gercek veri problemleriyle tekrar edildi. Listenin uzerinde gezinme, kosula gore secim yapma, sonucu bir degiskende toplama ve fonksiyonla tekrar kullanilabilir hale getirme pratik edildi.
+Bu günde Python'un temel kontrol yapıları gerçek veri problemleriyle tekrar edildi. Listenin üzerinde gezinme, koşula göre seçim yapma, sonucu bir değişkende toplama ve fonksiyonla tekrar kullanılabilir hale getirme pratik edildi.
 
-Final task'ta skor listesinden gecen notlari filtreleme, gecen kisi sayisini bulma ve en yuksek gecen notu hesaplama mantigi kuruldu. Not: Sadece gecenlerin ortalamasi istenirse `average(passed_scores)` kullanilmalidir.
+Final task'ta skor listesinden geçen notları filtreleme, geçen kişi sayısını bulma ve en yüksek geçen notu hesaplama mantığı kuruldu. Not: Sadece geçenlerin ortalaması istenirse `average(passed_scores)` kullanılmalıdır.

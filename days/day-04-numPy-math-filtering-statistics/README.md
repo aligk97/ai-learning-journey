@@ -1,27 +1,27 @@
 # Day 04 - NumPy Math, Filtering and Statistics
 
-## Gunun Hedefi
+## Günün Hedefi
 
-NumPy ile veriler uzerinde matematiksel islemler, temel istatistik hesaplari, kosullu filtreleme ve sonuc yorumlama yapabilmek.
+NumPy ile veriler üzerinde matematiksel işlemler, temel istatistik hesapları, koşullu filtreleme ve sonuç yorumlama yapabilmek.
 
-## Islenen Konular
+## İşlenen Konular
 
-- Array uzerinde toplu matematiksel islemler
+- Array üzerinde toplu matematiksel işlemler
 - Toplam, ortalama, minimum, maksimum ve standart sapma hesaplama
-- Iki boyutlu veride `axis=0` ve `axis=1` kullanimi
-- Boolean filtering ile aralik secme
-- Birden fazla kosulu birlikte kullanma
-- `np.where()` ile kosula gore etiket uretme
+- İki boyutlu veride `axis=0` ve `axis=1` kullanımı
+- Boolean filtering ile aralık seçme
+- Birden fazla koşulu birlikte kullanma
+- `np.where()` ile koşula göre etiket üretme
 - `any()` ve `all()` ile genel kontrol yapma
-- `argmax()` ve `argmin()` ile en buyuk/en kucuk degerin indexini bulma
+- `argmax()` ve `argmin()` ile en büyük/en küçük değerin indexini bulma
 
-## Onemli Kavramlar
+## Önemli Kavramlar
 
-- **Vectorized math:** Array'in tum elemanlarina ayni matematiksel islemi tek satirda uygulama.
-- **Statistics:** Verinin genel durumunu ozetleyen ortalama, standart sapma, min ve max gibi degerler.
-- **Boolean filtering:** Veriyi belirli kosullara gore secme.
-- **Conditional labeling:** Kosula gore `"Passed"` / `"Failed"` gibi anlamli etiketler uretme.
-- **Index of extreme values:** En buyuk veya en kucuk degerin kendisi yerine konumunu bulma.
+- **Vectorized math:** Array'in tüm elemanlarına aynı matematiksel işlemi tek satırda uygulama.
+- **Statistics:** Verinin genel durumunu özetleyen ortalama, standart sapma, min ve max gibi değerler.
+- **Boolean filtering:** Veriyi belirli koşullara göre seçme.
+- **Conditional labeling:** Koşula göre `"Passed"` / `"Failed"` gibi anlamlı etiketler üretme.
+- **Index of extreme values:** En büyük veya en küçük değerin kendisi yerine konumunu bulma.
 
 ## Temel Komutlar / Fonksiyonlar
 
@@ -42,18 +42,18 @@ NumPy ile veriler uzerinde matematiksel islemler, temel istatistik hesaplari, ko
 
 ## Mini Tasklar
 
-- Fiyatlara yuzde 20 zam uygulama, indirim yapma ve yari fiyat hesaplama
-- Sicaklik array'inde toplam, ortalama, min ve max bulma
-- Satis tablosunda sutun ve satir bazli ortalama, maksimum ve toplam hesaplama
-- Standart sapma ile verinin yayilimini inceleme
-- Sicakliklari belirli araliklara gore filtreleme
-- Notlari `Passed` / `Failed` olarak etiketleme
-- `any()` ve `all()` ile genel kosul kontrolleri yapma
-- En pahali/en ucuz urunun indexini bulma
-- Iki boyutlu veride satir ve sutun bazli `argmax` / `argmin` kullanma
+- Fiyatlara yüzde 20 zam uygulama, indirim yapma ve yarı fiyat hesaplama
+- Sıcaklık array'inde toplam, ortalama, min ve max bulma
+- Satış tablosunda sütun ve satır bazlı ortalama, maksimum ve toplam hesaplama
+- Standart sapma ile verinin yayılımını inceleme
+- Sıcaklıkları belirli aralıklara göre filtreleme
+- Notları `Passed` / `Failed` olarak etiketleme
+- `any()` ve `all()` ile genel koşul kontrolleri yapma
+- En pahalı/en ucuz ürünün indexini bulma
+- İki boyutlu veride satır ve sütun bazlı `argmax` / `argmin` kullanma
 
-## Gun Sonu Ozeti
+## Gün Sonu Özeti
 
-Bu gunde NumPy ile veriyi sadece saklamayi degil, analiz etmeyi de pratik ettik. Matematiksel islemler, istatistiksel ozetler, kosullu filtreler ve kosula gore etiketleme ayni gun icinde birlestirildi.
+Bu günde NumPy ile veriyi sadece saklamayı değil, analiz etmeyi de pratik ettik. Matematiksel işlemler, istatistiksel özetler, koşullu filtreler ve koşula göre etiketleme aynı gün içinde birleştirildi.
 
-Final task'ta ogrencilerin ortalamalari hesaplandi, basarili ogrenciler filtrelendi, her ogrenci icin gecme/kalma etiketi uretildi, sinifta 90 uzeri ortalama olup olmadigi kontrol edildi ve en yuksek performansli ogrencinin indexi bulundu.
+Final task'ta öğrencilerin ortalamaları hesaplandı, başarılı öğrenciler filtrelendi, her öğrenci için geçme/kalma etiketi üretildi, sınıfta 90 üzeri ortalama olup olmadığı kontrol edildi ve en yüksek performanslı öğrencinin indexi bulundu.

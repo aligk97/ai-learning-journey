@@ -1,27 +1,27 @@
 # Day 02 - NumPy Basics
 
-## Gunun Hedefi
+## Günün Hedefi
 
-NumPy array yapisini taniyip klasik Python listelerine gore neden daha pratik oldugunu anlamak; array ozelliklerini okuyabilmek ve basit secme/hesaplama islemleri yapabilmek.
+NumPy array yapısını tanıyıp klasik Python listelerine göre neden daha pratik olduğunu anlamak; array özelliklerini okuyabilmek ve basit seçme/hesaplama işlemleri yapabilmek.
 
-## Islenen Konular
+## İşlenen Konular
 
 - NumPy import etme
-- Python listesini NumPy array'e cevirme
-- Array uzerinde toplu matematiksel islem yapma
-- Array'in yapisini inceleme
-- Boolean filtering ile veri secme
-- Birden fazla kosulu birlikte kullanma
-- Iki boyutlu array'lerde satir ve sutun mantigi
-- `axis` kullanarak satir veya sutun bazli hesaplama
+- Python listesini NumPy array'e çevirme
+- Array üzerinde toplu matematiksel işlem yapma
+- Array'in yapısını inceleme
+- Boolean filtering ile veri seçme
+- Birden fazla koşulu birlikte kullanma
+- İki boyutlu array'lerde satır ve sütun mantığı
+- `axis` kullanarak satır veya sütun bazlı hesaplama
 
-## Onemli Kavramlar
+## Önemli Kavramlar
 
-- **Array:** Ayni turdeki verileri daha hizli ve toplu islemek icin kullanilan NumPy veri yapisi.
-- **Vectorized operation:** Dongu yazmadan array'in tum elemanlarina ayni islemi uygulama.
-- **Boolean mask:** Kosulu saglayan elemanlari secmek icin `True` / `False` degerlerinden olusan filtre.
-- **Axis:** Iki boyutlu veride hesaplamanin satirlara mi sutunlara mi uygulanacagini belirleyen yon.
-- **Shape:** Array'in satir ve sutun bilgisini gosteren yapi.
+- **Array:** Aynı türdeki verileri daha hızlı ve toplu işlemek için kullanılan NumPy veri yapısı.
+- **Vectorized operation:** Döngü yazmadan array'in tüm elemanlarına aynı işlemi uygulama.
+- **Boolean mask:** Koşulu sağlayan elemanları seçmek için `True` / `False` değerlerinden oluşan filtre.
+- **Axis:** İki boyutlu veride hesaplamanın satırlara mı sütunlara mı uygulanacağını belirleyen yön.
+- **Shape:** Array'in satır ve sütun bilgisini gösteren yapı.
 
 ## Temel Komutlar / Fonksiyonlar
 
@@ -42,17 +42,17 @@ NumPy array yapisini taniyip klasik Python listelerine gore neden daha pratik ol
 
 ## Mini Tasklar
 
-- Skor listesini array'e cevirip tum elemanlari 2 ile carpma
+- Skor listesini array'e çevirip tüm elemanları 2 ile çarpma
 - Array'in `shape`, `ndim`, `size`, `dtype` bilgilerini inceleme
-- 60 ve uzeri notlari filtreleyip ortalama, en yuksek, en dusuk ve adet hesaplama
-- 50 ile 90 arasindaki notlari secme
-- Secilen notlara 5 puan ekleme
-- 60 alti veya 90 ustu ekstrem notlari bulma
-- Ogrenci-sinav tablosunda ogrenci ortalamalarini hesaplama
-- Ortalamasi 75 ve uzeri olan ogrencileri secme
+- 60 ve üzeri notları filtreleyip ortalama, en yüksek, en düşük ve adet hesaplama
+- 50 ile 90 arasındaki notları seçme
+- Seçilen notlara 5 puan ekleme
+- 60 altı veya 90 üstü ekstrem notları bulma
+- Öğrenci-sınav tablosunda öğrenci ortalamalarını hesaplama
+- Ortalaması 75 ve üzeri olan öğrencileri seçme
 
-## Gun Sonu Ozeti
+## Gün Sonu Özeti
 
-Bu gunde NumPy'in temel array mantigi ve listeye gore sagladigi pratiklik goruldu. Ozellikle kosula gore veri secme ve `axis` kullanarak iki boyutlu verilerde satir/sutun bazli hesaplama yapma alistirmalari one cikti.
+Bu günde NumPy'in temel array mantığı ve listeye göre sağladığı pratiklik görüldü. Özellikle koşula göre veri seçme ve `axis` kullanarak iki boyutlu verilerde satır/sütun bazlı hesaplama yapma alıştırmaları öne çıktı.
 
-Final task'ta ogrencilerin sinav notlari iki boyutlu array olarak tutuldu; ogrenci ortalamalari, basarili ogrenciler, sinif ortalamasi, her ogrencinin en yuksek notu ve ekstrem ortalamalar hesaplandi.
+Final task'ta öğrencilerin sınav notları iki boyutlu array olarak tutuldu; öğrenci ortalamaları, başarılı öğrenciler, sınıf ortalaması, her öğrencinin en yüksek notu ve ekstrem ortalamalar hesaplandı.
