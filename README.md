@@ -11,7 +11,7 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 | 3 ✅ | NumPy slicing, reshape, flatten, transpose                         | Manipulate array shapes                                     |
 | 4 ✅ | NumPy math, axis, mean/std/min/max, boolean filtering              | Process data with NumPy                                     |
 | 5 ✅ | Pandas basics: Series, DataFrame, CSV, head, info, describe        | Read and inspect datasets                                   |
-| 6   | Pandas: selecting rows/columns, loc, iloc, filtering               | Select data from a dataset                                  |
+| 6 ✅ | Pandas: selecting rows/columns, loc, iloc, filtering               | Select data from a dataset                                  |
 | 7   | Pandas: missing values, duplicates, sort, groupby                  | Perform basic data cleaning                                 |
 | 8   | Pandas: groupby, agg, merge, map/apply                             | Combine multiple data operations                            |
 | 9   | Matplotlib + reading charts                                        | Visualize data                                              |
@@ -115,25 +115,25 @@ This makes each day easy to review directly on GitHub.
 
 **Day 5 ✅ Completed — Pandas Basics**
 
+**Day 6 ✅ Completed — Pandas Selection, loc/iloc & Filtering**
+
 ### Next
 
-**Day 6 — Pandas Selection, loc/iloc & Filtering**
+**Day 7 — Pandas Missing Values, Duplicates, Sort & Groupby**
 
 Topics:
 
-* Row and column selection
-* `loc`
-* `iloc`
-* Slicing
-* Boolean filtering
-* Multiple conditions with `&`, `|`, `~`
+* Missing values
+* Duplicates
+* Sorting
+* Grouping with `groupby`
 
 Goal:
 
-**Select data from a dataset comfortably.**
+**Perform basic data cleaning comfortably.**
 
 For the next study session, you only need to say:
 
-> **“Let’s start Day 6.”**
+> **“Let’s start Day 7.”**
 
 This roadmap will remain our **fixed reference** from now on.
