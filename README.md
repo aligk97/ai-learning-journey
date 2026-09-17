@@ -14,7 +14,7 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 | 6 ✅ | Pandas: selecting rows/columns, loc, iloc, filtering               | Select data from a dataset                                  |
 | 7 ✅ | Pandas: missing values, duplicates, sort, groupby                  | Perform basic data cleaning                                 |
 | 8 ✅ | Pandas: groupby, agg, merge, map/apply                             | Combine multiple data operations                            |
-| 9   | Matplotlib + reading charts                                        | Visualize data                                              |
+| 9 ✅ | Matplotlib + reading charts                                        | Visualize data                                              |
 | 10  | Statistics basics: mean, median, variance, std, quartile, outlier  | Understand common statistics terms used in ML               |
 | 11  | Correlation, covariance, distributions, boxplot                    | Interpret relationships between variables                   |
 | 12  | Introduction to ML: feature, target, X, y, supervised/unsupervised | Break down an ML problem into its parts                     |
@@ -121,22 +121,24 @@ This makes each day easy to review directly on GitHub.
 
 **Day 8 ✅ Completed — Pandas Groupby, agg, merge, map/apply**
 
+**Day 9 ✅ Completed — Matplotlib + Reading Charts**
+
 ### Next
 
-**Day 9 — Matplotlib + Reading Charts**
+**Day 10 — Statistics Basics**
 
 Topics:
 
-* Basic plots
-* Reading and interpreting charts
-* Plot labels and titles
+* Mean, median, variance and standard deviation
+* Quartiles and outliers
+* Basic statistics terms used in ML
 
 Goal:
 
-**Visualize data and understand chart outputs.**
+**Understand common statistics terms used in ML.**
 
 For the next study session, you only need to say:
 
-> **“Let’s start Day 9.”**
+> **“Let’s start Day 10.”**
 
 This roadmap will remain our **fixed reference** from now on.
