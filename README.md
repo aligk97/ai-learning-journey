@@ -13,7 +13,7 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 | 5 ✅ | Pandas basics: Series, DataFrame, CSV, head, info, describe        | Read and inspect datasets                                   |
 | 6 ✅ | Pandas: selecting rows/columns, loc, iloc, filtering               | Select data from a dataset                                  |
 | 7 ✅ | Pandas: missing values, duplicates, sort, groupby                  | Perform basic data cleaning                                 |
-| 8   | Pandas: groupby, agg, merge, map/apply                             | Combine multiple data operations                            |
+| 8 ✅ | Pandas: groupby, agg, merge, map/apply                             | Combine multiple data operations                            |
 | 9   | Matplotlib + reading charts                                        | Visualize data                                              |
 | 10  | Statistics basics: mean, median, variance, std, quartile, outlier  | Understand common statistics terms used in ML               |
 | 11  | Correlation, covariance, distributions, boxplot                    | Interpret relationships between variables                   |
@@ -119,23 +119,24 @@ This makes each day easy to review directly on GitHub.
 
 **Day 7 ✅ Completed — Pandas Missing Values, Duplicates, Sort & Groupby**
 
+**Day 8 ✅ Completed — Pandas Groupby, agg, merge, map/apply**
+
 ### Next
 
-**Day 8 — Pandas Groupby, agg, merge, map/apply**
+**Day 9 — Matplotlib + Reading Charts**
 
 Topics:
 
-* Advanced `groupby`
-* `agg`
-* `merge`
-* `map` and `apply`
+* Basic plots
+* Reading and interpreting charts
+* Plot labels and titles
 
 Goal:
 
-**Combine multiple Pandas operations comfortably.**
+**Visualize data and understand chart outputs.**
 
 For the next study session, you only need to say:
 
-> **“Let’s start Day 8.”**
+> **“Let’s start Day 9.”**
 
 This roadmap will remain our **fixed reference** from now on.
