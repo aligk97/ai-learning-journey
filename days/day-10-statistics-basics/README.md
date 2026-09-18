@@ -1,88 +1,74 @@
 # Day 10 - Statistics Basics
 
-## Goal
+## Günün Hedefi
 
-Understand basic statistics concepts used in data analysis and machine learning.
+Veri analizi ve makine öğrenmesinde sık kullanılan temel istatistik kavramlarını öğrenmek; veri setindeki merkezi eğilimi, yayılımı, aykırı değerleri ve değişkenler arasındaki ilişkiyi yorumlayabilmek.
 
-## Topics Covered
+## İşlenen Konular
 
-- Mean
-- Median
-- Variance
-- Standard deviation
-- Quartiles
-- IQR
-- Outlier detection
-- Removing outliers
-- Correlation basics
+- Ortalama (`mean`) ve medyan (`median`)
+- Mod (`mode`) ve aralık (`range`)
+- Varyans (`variance`) ve standart sapma (`standard deviation`)
+- Çeyrek değerler (`Q1`, `Q2`, `Q3`)
+- IQR yöntemi
+- Aykırı değer (`outlier`) tespiti
+- Aykırı değerleri çıkardıktan sonra ortalamayı yeniden yorumlama
+- Korelasyonun yönü ve gücü
+- Korelasyon ile neden-sonuç ilişkisinin farkı
 
-## Key Concepts
+## Temel Komutlar / Fonksiyonlar
 
-### Mean
+- `array.mean()`
+- `np.median(array)`
+- `array.var()`
+- `array.std()`
+- `series.mode()`
+- `array.max() - array.min()`
+- `np.percentile(array, 25)`
+- `np.percentile(array, 50)`
+- `np.percentile(array, 75)`
+- `np.corrcoef(x, y)`
 
-Mean is the average value of a dataset.
+## Önemli Kavramlar
 
-```python
-scores.mean()
-```
+- **Mean:** Veri setindeki değerlerin toplamının değer sayısına bölünmesiyle bulunur.
+- **Median:** Sıralanmış veri setindeki ortadaki değerdir. Aykırı değerlerden mean'e göre daha az etkilenir.
+- **Mode:** Veri setinde en sık tekrar eden değerdir.
+- **Range:** En büyük değer ile en küçük değer arasındaki farktır.
+- **Variance:** Değerlerin ortalamadan ne kadar uzaklaştığını gösterir.
+- **Standard deviation:** Yayılımı verinin kendi birimiyle yorumlamayı sağlar.
+- **Quartile:** Veriyi dört parçaya bölen değerlerdir.
+- **IQR:** `Q3 - Q1` formülüyle hesaplanır ve veri setinin orta kısmındaki yayılımı gösterir.
+- **Outlier:** Normal veri aralığının dışında kalan aykırı değerdir.
+- **Correlation:** İki değişken arasındaki lineer ilişkinin yönünü ve gücünü gösterir.
 
-### Median
+## IQR ile Outlier Tespiti
 
-Median is the middle value of sorted data.
-
-```python
-np.median(scores)
-```
-
-### Variance
-
-Variance shows how spread out the values are from the mean.
-
-```python
-scores.var()
-```
-
-### Standard Deviation
-
-Standard deviation shows the spread of values in the original unit.
-
-```python
-scores.std()
-```
-
-### Quartiles
-
-Quartiles split the data into four parts.
+Q1 ve Q3 hesaplandıktan sonra IQR bulunur.
 
 ```python
 q1 = np.percentile(scores, 25)
 q3 = np.percentile(scores, 75)
-```
 
-### IQR
-
-IQR means Interquartile Range.
-
-```python
 iqr = q3 - q1
 ```
 
-### Outlier Detection
-
-Outliers can be detected using lower and upper bounds.
+Alt ve üst sınır şu şekilde hesaplanır:
 
 ```python
 lower_bound = q1 - (1.5 * iqr)
 upper_bound = q3 + (1.5 * iqr)
 ```
 
-A value is an outlier if it is smaller than the lower bound or greater than the upper bound.
+Bir değer alt sınırdan küçük veya üst sınırdan büyükse outlier kabul edilir.
 
 ```python
-outliers = scores[(scores < lower_bound) | (scores > upper_bound)]
+outliers = scores[
+    (scores < lower_bound) | (scores > upper_bound)
+]
 ```
 
-Normal values should be inside both bounds.
+Normal değerleri seçerken değer hem alt sınırın üstünde hem de üst sınırın altında olmalıdır.
 
 ```python
 clean_scores = scores[
@@ -90,30 +76,40 @@ clean_scores = scores[
 ]
 ```
 
-## Final Check Notes
+## Yapılan Hatalar ve Düzeltmeler
 
-The value `150` is an outlier in the scores dataset.
+### 1. Outlier koşulunda `&` ve `|` kullanımını karıştırmak
 
-The original mean is higher because the outlier pulls the average upward.
+Outlier bulurken iki koşuldan birinin gerçekleşmesi yeterlidir. Bu yüzden `|` kullanılır.
 
-After removing the outlier, the mean becomes lower and more representative of the normal scores.
+```python
+outliers = scores[(scores < lower_bound) | (scores > upper_bound)]
+```
 
-## Correlation Note
+### 2. Normal değerleri seçerken `|` kullanmak
 
-Correlation shows the direction and strength of the relationship between two variables.
+Normal değerler hem alt sınırın üstünde hem de üst sınırın altında olmalıdır. Bu yüzden `&` kullanılır.
 
-A correlation around `0.87` means there is a strong positive relationship.
+```python
+clean_scores = scores[
+    (scores >= lower_bound) & (scores <= upper_bound)
+]
+```
 
-However, correlation does not prove causation.
+### 3. Korelasyonu neden-sonuç gibi yorumlamak
 
-This means we cannot say:
+Korelasyon iki değişken arasındaki ilişkinin yönünü ve gücünü gösterir. Ancak tek başına neden-sonuç ilişkisi kanıtlamaz.
 
-> More study hours definitely cause higher scores.
+## Final Check Özeti
 
-We can only say:
+Final check'te `scores` verisi üzerinde mean, median, variance ve standard deviation hesaplandı.
 
-> Study hours and scores have a strong positive relationship in this dataset.
+Sonrasında Q1, Q3 ve IQR kullanılarak alt ve üst sınırlar bulundu. `150` değeri outlier olarak tespit edildi.
 
-## Day Summary
+Outlier çıkarıldıktan sonra mean değeri yeniden hesaplandı. Eski mean daha yüksekti çünkü `150` değeri ortalamayı yukarı çekiyordu.
 
-In Day 10, I learned how to calculate basic statistics values, detect outliers using the IQR method, remove outliers, compare mean values before and after cleaning, and interpret a basic correlation result.
+`study_hours` ve `scores` arasındaki korelasyon değeri yaklaşık `0.87` çıktı. Bu sonuç güçlü pozitif bir ilişki olduğunu gösterir, fakat "daha fazla çalışmak kesin olarak daha yüksek skora sebep olur" sonucunu tek başına kanıtlamaz.
+
+## Gün Sonu Kazanımları
+
+Bu günün sonunda temel istatistik değerleri hesaplama, veri setindeki yayılımı yorumlama, IQR yöntemiyle outlier bulma, outlier çıkarıldıktan sonra mean değerini karşılaştırma ve korelasyon sonucunu doğru yorumlama pratiği yapıldı.

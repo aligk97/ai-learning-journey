@@ -15,7 +15,7 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 | 7 ✅ | Pandas: missing values, duplicates, sort, groupby                  | Perform basic data cleaning                                 |
 | 8 ✅ | Pandas: groupby, agg, merge, map/apply                             | Combine multiple data operations                            |
 | 9 ✅ | Matplotlib + reading charts                                        | Visualize data                                              |
-| 10  | Statistics basics: mean, median, variance, std, quartile, outlier  | Understand common statistics terms used in ML               |
+| 10 ✅ | Statistics basics: mean, median, variance, std, quartile, outlier  | Understand common statistics terms used in ML               |
 | 11  | Correlation, covariance, distributions, boxplot                    | Interpret relationships between variables                   |
 | 12  | Introduction to ML: feature, target, X, y, supervised/unsupervised | Break down an ML problem into its parts                     |
 | 13  | train_test_split, training/test logic                              | Understand why models are tested on separate data           |
@@ -123,22 +123,24 @@ This makes each day easy to review directly on GitHub.
 
 **Day 9 ✅ Completed — Matplotlib + Reading Charts**
 
+**Day 10 ✅ Completed — Statistics Basics**
+
 ### Next
 
-**Day 10 — Statistics Basics**
+**Day 11 — Correlation, Covariance, Distributions & Boxplot**
 
 Topics:
 
-* Mean, median, variance and standard deviation
-* Quartiles and outliers
-* Basic statistics terms used in ML
+* Correlation and covariance
+* Distributions
+* Boxplot
 
 Goal:
 
-**Understand common statistics terms used in ML.**
+**Interpret relationships between variables.**
 
 For the next study session, you only need to say:
 
-> **“Let’s start Day 10.”**
+> **“Let’s start Day 11.”**
 
 This roadmap will remain our **fixed reference** from now on.
