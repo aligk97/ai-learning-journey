@@ -16,7 +16,7 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 | 8 ✅ | Pandas: groupby, agg, merge, map/apply                             | Combine multiple data operations                            |
 | 9 ✅ | Matplotlib + reading charts                                        | Visualize data                                              |
 | 10 ✅ | Statistics basics: mean, median, variance, std, quartile, outlier  | Understand common statistics terms used in ML               |
-| 11  | Correlation, covariance, distributions, boxplot                    | Interpret relationships between variables                   |
+| 11 ✅ | Correlation, covariance, distributions, boxplot                    | Interpret relationships between variables                   |
 | 12  | Introduction to ML: feature, target, X, y, supervised/unsupervised | Break down an ML problem into its parts                     |
 | 13  | train_test_split, training/test logic                              | Understand why models are tested on separate data           |
 | 14  | Linear Regression                                                  | Build your first model from start to finish                 |
@@ -125,22 +125,24 @@ This makes each day easy to review directly on GitHub.
 
 **Day 10 ✅ Completed — Statistics Basics**
 
+**Day 11 ✅ Completed — Correlation, Covariance, Distributions & Boxplot**
+
 ### Next
 
-**Day 11 — Correlation, Covariance, Distributions & Boxplot**
+**Day 12 — Introduction to ML: feature, target, X, y, supervised/unsupervised**
 
 Topics:
 
-* Correlation and covariance
-* Distributions
-* Boxplot
+* Feature and target
+* `X` and `y`
+* Supervised and unsupervised learning
 
 Goal:
 
-**Interpret relationships between variables.**
+**Break down an ML problem into its parts.**
 
 For the next study session, you only need to say:
 
-> **“Let’s start Day 11.”**
+> **“Let’s start Day 12.”**
 
 This roadmap will remain our **fixed reference** from now on.
