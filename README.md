@@ -1,148 +1,209 @@
 # AI Learning Journey
 
-My journey from Python fundamentals to Machine Learning, Deep Learning, and modern AI.
+My journey from Python fundamentals to Machine Learning, Deep Learning and modern AI.
 
-# AI Learning Roadmap — 42 Days
-
-| Day | Topic                                                              | Goal by the end of the day                                  |
-| --- | ------------------------------------------------------------------ | ----------------------------------------------------------- |
-| 1 ✅ | Python review: list, loop, if, function, append, len, max/average  | Be able to write simple algorithms on your own              |
-| 2 ✅ | NumPy basics: array, ndim, shape, dtype, indexing                  | Read and understand NumPy arrays comfortably                |
-| 3 ✅ | NumPy slicing, reshape, flatten, transpose                         | Manipulate array shapes                                     |
-| 4 ✅ | NumPy math, axis, mean/std/min/max, boolean filtering              | Process data with NumPy                                     |
-| 5 ✅ | Pandas basics: Series, DataFrame, CSV, head, info, describe        | Read and inspect datasets                                   |
-| 6 ✅ | Pandas: selecting rows/columns, loc, iloc, filtering               | Select data from a dataset                                  |
-| 7 ✅ | Pandas: missing values, duplicates, sort, groupby                  | Perform basic data cleaning                                 |
-| 8 ✅ | Pandas: groupby, agg, merge, map/apply                             | Combine multiple data operations                            |
-| 9 ✅ | Matplotlib + reading charts                                        | Visualize data                                              |
-| 10 ✅ | Statistics basics: mean, median, variance, std, quartile, outlier  | Understand common statistics terms used in ML               |
-| 11 ✅ | Correlation, covariance, distributions, boxplot                    | Interpret relationships between variables                   |
-| 12  | Introduction to ML: feature, target, X, y, supervised/unsupervised | Break down an ML problem into its parts                     |
-| 13  | train_test_split, training/test logic                              | Understand why models are tested on separate data           |
-| 14  | Linear Regression                                                  | Build your first model from start to finish                 |
-| 15  | MAE, MSE, RMSE, R²                                                 | Evaluate regression models                                  |
-| 16  | Polynomial Regression                                              | Model non-linear relationships                              |
-| 17  | Overfitting / underfitting                                         | Understand whether a model is memorizing or generalizing    |
-| 18  | StandardScaler, normalization, fit, transform, fit_transform       | Fully understand preprocessing logic                        |
-| 19  | Encoding: categorical → numerical                                  | Prepare categorical data for models                         |
-| 20  | Regression mini project                                            | Complete dataset → preprocessing → model → evaluation       |
-| 21  | Logistic Regression + sigmoid                                      | Move into classification                                    |
-| 22  | Confusion Matrix: TP, TN, FP, FN                                   | Read classification results                                 |
-| 23  | Accuracy, Precision, Recall, F1                                    | Choose the correct evaluation metric                        |
-| 24  | KNN                                                                | Understand distance-based models                            |
-| 25  | Decision Tree                                                      | Understand how decision trees make decisions                |
-| 26  | Random Forest                                                      | Learn the ensemble learning concept                         |
-| 27  | Cross Validation                                                   | Evaluate models more reliably                               |
-| 28  | Pipeline + GridSearch                                              | Build a more professional ML workflow                       |
-| 29  | K-Means clustering                                                 | Understand unsupervised learning                            |
-| 30  | PCA                                                                | Understand dimensionality reduction                         |
-| 31  | ML final project                                                   | Complete an independent end-to-end ML project               |
-| 32  | Perceptron + neuron                                                | Understand the most basic building block of neural networks |
-| 33  | Weight, bias, activation functions                                 | Understand how a neuron makes decisions                     |
-| 34  | Hidden layers + forward propagation                                | See how data flows through a neural network                 |
-| 35  | Loss function + Gradient Descent                                   | Understand how a neural network learns                      |
-| 36  | Backpropagation                                                    | Understand how errors update the weights                    |
-| 37  | PyTorch tensors + basics                                           | Start writing Deep Learning code                            |
-| 38  | Dataset, DataLoader, batch, epoch, optimizer                       | Understand the training loop                                |
-| 39  | First Neural Network with PyTorch                                  | Train your own neural network                               |
-| 40  | NLP: token, vocabulary, embedding                                  | Understand how text is converted into model input           |
-| 41  | Attention + Self-Attention + Transformer                           | Properly understand Transformer architecture                |
-| 42  | Hugging Face + pretrained model + mini AI application              | Use a modern AI model in a real application                 |
-
----
-
-## What Comes Next?
-
-Day 42 does not mean the learning process is finished.
-
-It means the **foundation phase is complete**.
-
-After that, instead of moving from topic to topic, we will enter the **project phase**.
-
-Our main learning path is:
-
-**Python → NumPy → Pandas → ML → Neural Networks → PyTorch → NLP → Attention → Transformer → Hugging Face**
-
-This means concepts such as:
-
-* `train_test_split`
-* `fit_transform`
-* Confusion Matrix
-* Perceptron
-* Batch Size
-* Transformer
-
-will no longer feel like isolated concepts to memorize.
-
-You will understand **why each concept appears at that point**, how it connects to previous topics, and where it is used in real projects.
-
----
-
-## How Will We Study Each Day?
-
-The daily format will remain consistent:
-
-**Short theory → 2–3 examples together → small tasks → final challenge → error review**
-
-You will write as much of the code as possible **on your own**.
-
-Instead of immediately giving you the answer, I will first guide you with hints and explanations.
-
-If you already know a topic, we will not waste the day repeating it. We will increase the difficulty of the exercises and move faster.
-
----
-
-## Daily Notes Standard
-
-Each completed day folder will include:
-
-* `main.py` — the code written during that day
-* `README.md` — short lesson notes covering the goal, topics, key concepts, core commands/functions, mini tasks, and day-end summary
-
-This makes each day easy to review directly on GitHub.
-
----
+The goal of this repository is to build a strong AI foundation by learning concepts step by step and implementing them with code.
 
 ## Current Progress
 
-**Day 1 ✅ Completed — Python Fundamentals**
+**12 / 42 Days Completed**
 
-**Day 2 ✅ Completed — NumPy Basics**
+```text
+Python
+  ↓
+NumPy
+  ↓
+Pandas
+  ↓
+Data Visualization
+  ↓
+Statistics
+  ↓
+Machine Learning ← Current Stage
+```
 
-**Day 3 ✅ Completed — NumPy Slicing & Array Manipulation**
+## Learning Roadmap
 
-**Day 4 ✅ Completed — NumPy Math, Filtering & Statistics**
+| Day | Topic | Status |
+| --- | --- | --- |
+| 01 | Python Fundamentals | ✅ |
+| 02 | NumPy Basics | ✅ |
+| 03 | NumPy Array Manipulation | ✅ |
+| 04 | NumPy Math, Filtering & Statistics | ✅ |
+| 05 | Pandas Basics | ✅ |
+| 06 | Pandas Selection | ✅ |
+| 07 | Pandas Data Cleaning | ✅ |
+| 08 | Pandas GroupBy, Aggregation, Merge, Map & Apply | ✅ |
+| 09 | Matplotlib | ✅ |
+| 10 | Statistics Basics | ✅ |
+| 11 | Correlation, Covariance & Distribution | ✅ |
+| 12 | Machine Learning Fundamentals | ✅ |
+| 13 | First Machine Learning Model | ⏳ |
 
-**Day 5 ✅ Completed — Pandas Basics**
+## What I Have Learned
 
-**Day 6 ✅ Completed — Pandas Selection, loc/iloc & Filtering**
+### Python
 
-**Day 7 ✅ Completed — Pandas Missing Values, Duplicates, Sort & Groupby**
+- Lists
+- Loops
+- Conditions
+- Functions
+- Dictionaries
+- Basic algorithms
 
-**Day 8 ✅ Completed — Pandas Groupby, agg, merge, map/apply**
+### NumPy
 
-**Day 9 ✅ Completed — Matplotlib + Reading Charts**
+- Arrays
+- Shape and dimensions
+- Indexing
+- Slicing
+- Reshape
+- Flatten
+- Transpose
+- Mathematical operations
+- Axis operations
+- Boolean filtering
+- `where`
+- `any`
+- `all`
+- `argmax`
+- `argmin`
 
-**Day 10 ✅ Completed — Statistics Basics**
+### Pandas
 
-**Day 11 ✅ Completed — Correlation, Covariance, Distributions & Boxplot**
+- Series
+- DataFrames
+- CSV files
+- Data inspection
+- `loc`
+- `iloc`
+- Filtering
+- Sorting
+- Missing values
+- Duplicate handling
+- GroupBy
+- Aggregation
+- Merge
+- Map
+- Apply
 
-### Next
+### Data Visualization
 
-**Day 12 — Introduction to ML: feature, target, X, y, supervised/unsupervised**
+- Line charts
+- Scatter plots
+- Histograms
+- Subplots
+- Labels
+- Legends
+- Grid
+- Figure sizing
 
-Topics:
+### Statistics
 
-* Feature and target
-* `X` and `y`
-* Supervised and unsupervised learning
+- Mean
+- Median
+- Mode
+- Variance
+- Standard deviation
+- Percentiles
+- Quartiles
+- IQR
+- Outlier detection
+- Correlation
+- Covariance
+- Skewness
+- Distribution analysis
+- Boxplots
 
-Goal:
+### Machine Learning
 
-**Break down an ML problem into its parts.**
+- Features and targets
+- `X` and `y`
+- Supervised Learning
+- Unsupervised Learning
+- Regression
+- Classification
+- Training data
+- Prediction data
+- Train and test sets
+- `train_test_split`
+- `X_train`
+- `X_test`
+- `y_train`
+- `y_test`
+- `test_size`
+- `random_state`
+- `y_pred`
+- Comparing predictions with real values
 
-For the next study session, you only need to say:
+## Repository Structure
 
-> **“Let’s start Day 12.”**
+```text
+ai-learning-journey/
+│
+├── days/
+│   ├── day-01-python/
+│   ├── day-02-numpy/
+│   ├── day-03-numpy-array-manipulation/
+│   ├── day-04-numpy-math-filtering-statistics/
+│   ├── day-05-pandas/
+│   ├── day-06-pandas-selection/
+│   ├── day-07-pandas-data-cleaning/
+│   ├── day-08-pandas-groupby-agg-merge-map-apply/
+│   ├── day-09-matplotlib/
+│   ├── day-10-statistics-basics/
+│   ├── day-11-correlation-covariance-distribution/
+│   └── day-12-machine-learning/
+│       ├── main.py
+│       └── README.md
+│
+├── src/
+├── README.md
+├── pyproject.toml
+└── uv.lock
+```
 
-This roadmap will remain our **fixed reference** from now on.
+## Learning Method
+
+For every topic I follow the same process:
+
+1. Learn the concept
+2. Write the code myself
+3. Complete small exercises
+4. Solve a final check
+5. Review mistakes
+6. Commit the completed day to GitHub
+
+The focus is not just understanding code, but being able to write and reason about it independently.
+
+## Tech Stack
+
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- VS Code
+- Git
+- GitHub
+
+## Current Focus
+
+I have completed the fundamental concepts required before training Machine Learning models.
+
+The next step is to start creating, training and testing real Machine Learning models using Scikit-learn.
+
+## Goal
+
+Build a strong foundation in:
+
+```text
+Python
+→ Data Analysis
+→ Statistics
+→ Machine Learning
+→ Deep Learning
+→ Modern AI
+```
+
+while documenting the entire learning process in this repository.
