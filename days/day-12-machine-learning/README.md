@@ -1,8 +1,6 @@
-# Day 12 — Machine Learning Fundamentals
+# Day 12 — Introduction to Machine Learning
 
-Today I started the Machine Learning section of my AI learning journey.
-
-The goal of this day was to understand the fundamental concepts behind Machine Learning before training actual models.
+The goal of Day 12 was to understand the basic parts of a Machine Learning problem before moving into train/test splitting.
 
 ## Topics Covered
 
@@ -12,23 +10,11 @@ The goal of this day was to understand the fundamental concepts behind Machine L
 - Unsupervised Learning
 - Regression
 - Classification
-- Training data vs new/prediction data
-- Train and test sets
-- `X_train`
-- `X_test`
-- `y_train`
-- `y_test`
-- `train_test_split`
-- `test_size`
-- `random_state`
-- Model predictions (`y_pred`)
-- Comparing predictions with real values (`y_test`)
+- New prediction data
 
 ## Features and Target
 
 Features are the input variables used by the model.
-
-Example:
 
 ```python
 X = students[["study_hours", "attendance", "sleep_hours"]]
@@ -42,28 +28,9 @@ y = students["passed"]
 
 ## Supervised Learning
 
-In supervised learning, the training dataset contains both:
+In supervised learning, the dataset contains known target values.
 
-- Features (`X`)
-- Target (`y`)
-
-The model learns the relationship between them.
-
-```text
-X → Model → y
-```
-
-Example:
-
-```text
-study_hours
-attendance
-sleep_hours
-      ↓
-    Model
-      ↓
-   passed
-```
+The model learns the relationship between `X` and `y`.
 
 ## Regression
 
@@ -75,163 +42,36 @@ Examples:
 - Salary
 - Temperature
 - Fuel consumption
-- Number of days
 
 ## Classification
 
-Classification is used when the target represents a category or class.
+Classification is used when the target represents a class or category.
 
 Examples:
 
 - Passed / Failed
 - Spam / Not Spam
 - Fraud / Not Fraud
-- Purchased / Not Purchased
-
-A target containing values such as `0` and `1` can still represent classification if those numbers represent classes.
 
 ## Unsupervised Learning
 
-In unsupervised learning, there is no target variable.
+In unsupervised learning, there is no known target variable.
 
-The model tries to discover patterns, similarities or groups inside the data.
+The model tries to discover patterns, similarities, or groups in the data.
 
-Example:
+## New Prediction Data
 
-```text
-Customer Features
-       ↓
-   Clustering
-       ↓
-Group 1 / Group 2
-```
-
-## Training Data vs New Data
-
-During training:
-
-```text
-X + y
-  ↓
-Model learns
-```
-
-For a new prediction:
-
-```text
-X_new
-  ↓
-Model
-  ↓
-y_pred
-```
-
-The target is not included in new data because it is the value we want the model to predict.
-
-Example:
+New prediction data contains the features, but not the target we want to predict.
 
 ```python
-new_student = pd.DataFrame({
-    "study_hours": [6],
-    "attendance": [82],
-    "sleep_hours": [7]
+new_car = pd.DataFrame({
+    "horsepower": [175],
+    "age": [5],
+    "mileage": [85000]
 })
 ```
 
-There is no `passed` column because that is what the model will predict.
-
-## Train and Test Data
-
-The dataset is divided into training and testing parts.
-
-```text
-Dataset
-   │
-   ├── Training Set
-   │      ↓
-   │   Model learns
-   │
-   └── Test Set
-          ↓
-      Model is evaluated
-```
-
-The model learns using:
-
-```text
-X_train
-y_train
-```
-
-The model is tested using:
-
-```text
-X_test
-```
-
-The model produces:
-
-```text
-y_pred
-```
-
-Then the predictions are compared with the real test targets:
-
-```text
-y_pred ↔ y_test
-```
-
-## train_test_split
-
-```python
-from sklearn.model_selection import train_test_split
-
-X_train, X_test, y_train, y_test = train_test_split(
-    X,
-    y,
-    test_size=0.2,
-    random_state=42
-)
-```
-
-### test_size
-
-```python
-test_size=0.2
-```
-
-means:
-
-```text
-80% → Training
-20% → Testing
-```
-
-### random_state
-
-```python
-random_state=42
-```
-
-keeps the random train/test split reproducible.
-
-The number does not have to be `42`.
-
-## Important Variables
-
-```text
-X_train → Training features
-
-y_train → Real target values used during training
-
-X_test → Features reserved for testing
-
-y_test → Real target values reserved for testing
-
-y_pred → Predictions produced by the model
-```
-
-The test data should not be used during training because we want to evaluate how well the model performs on data it has never seen before.
+There is no `price` column because `price` is the value we want to predict.
 
 ## Final Understanding
 
@@ -241,16 +81,9 @@ By the end of Day 12, I can:
 - Create `X` and `y`
 - Distinguish supervised and unsupervised learning
 - Distinguish regression and classification
-- Understand why supervised learning requires target data
-- Understand the difference between training and prediction data
-- Create new prediction data
-- Understand train and test sets
-- Use `train_test_split`
-- Understand `test_size`
-- Understand `random_state`
-- Understand `X_train`, `X_test`, `y_train`, and `y_test`
-- Understand the relationship between `y_pred` and `y_test`
+- Understand why supervised learning needs known target values
+- Prepare new data without including the target
 
 ## Next
 
-Day 13 → Training my first Machine Learning model.
+Day 13 → `train_test_split` and training/test logic.
