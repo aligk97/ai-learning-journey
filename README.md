@@ -4,51 +4,6 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 
 # AI Learning Roadmap — 42 Days
 
-| ~~**Day**~~ | ~~**Topic**~~                                                          | ~~**Goal by the end of the day**~~                              |
-| ----------- | ---------------------------------------------------------------------- | --------------------------------------------------------------- |
-| ~~1 ✅~~     | ~~Python review: list, loop, if, function, append, len, max/average~~  | ~~Be able to write simple algorithms on your own~~              |
-| ~~2 ✅~~     | ~~NumPy basics: array, ndim, shape, dtype, indexing~~                  | ~~Read and understand NumPy arrays comfortably~~                |
-| ~~3 ✅~~     | ~~NumPy slicing, reshape, flatten, transpose~~                         | ~~Manipulate array shapes~~                                     |
-| ~~4 ✅~~     | ~~NumPy math, axis, mean/std/min/max, boolean filtering~~              | ~~Process data with NumPy~~                                     |
-| ~~5 ✅~~     | ~~Pandas basics: Series, DataFrame, CSV, head, info, describe~~        | ~~Read and inspect datasets~~                                   |
-| ~~6 ✅~~     | ~~Pandas: selecting rows/columns, loc, iloc, filtering~~               | ~~Select data from a dataset~~                                  |
-| ~~7 ✅~~     | ~~Pandas: missing values, duplicates, sort, groupby~~                  | ~~Perform basic data cleaning~~                                 |
-| ~~8 ✅~~     | ~~Pandas: groupby, agg, merge, map/apply~~                             | ~~Combine multiple data operations~~                            |
-| ~~9 ✅~~     | ~~Matplotlib + reading charts~~                                        | ~~Visualize data~~                                              |
-| ~~10 ✅~~    | ~~Statistics basics: mean, median, variance, std, quartile, outlier~~  | ~~Understand common statistics terms used in ML~~               |
-| ~~11~~      | ~~Correlation, covariance, distributions, boxplot~~                    | ~~Interpret relationships between variables~~                   |
-| ~~12~~      | ~~Introduction to ML: feature, target, X, y, supervised/unsupervised~~ | ~~Break down an ML problem into its parts~~                     |
-| ~~13~~      | ~~train\_test\_split, training/test logic~~                            | ~~Understand why models are tested on separate data~~           |
-| ~~14~~      | ~~Linear Regression~~                                                  | ~~Build your first model from start to finish~~                 |
-| ~~15~~      | ~~MAE, MSE, RMSE, R²~~                                                 | ~~Evaluate regression models~~                                  |
-| ~~16~~      | ~~Polynomial Regression~~                                              | ~~Model non-linear relationships~~                              |
-| ~~17~~      | ~~Overfitting / underfitting~~                                         | ~~Understand whether a model is memorizing or generalizing~~    |
-| ~~18~~      | ~~StandardScaler, normalization, fit, transform, fit\_transform~~      | ~~Fully understand preprocessing logic~~                        |
-| ~~19~~      | ~~Encoding: categorical → numerical~~                                  | ~~Prepare categorical data for models~~                         |
-| ~~20~~      | ~~Regression mini project~~                                            | ~~Complete dataset → preprocessing → model → evaluation~~       |
-| ~~21~~      | ~~Logistic Regression + sigmoid~~                                      | ~~Move into classification~~                                    |
-| ~~22~~      | ~~Confusion Matrix: TP, TN, FP, FN~~                                   | ~~Read classification results~~                                 |
-| ~~23~~      | ~~Accuracy, Precision, Recall, F1~~                                    | ~~Choose the correct evaluation metric~~                        |
-| ~~24~~      | ~~KNN~~                                                                | ~~Understand distance-based models~~                            |
-| ~~25~~      | ~~Decision Tree~~                                                      | ~~Understand how decision trees make decisions~~                |
-| ~~26~~      | ~~Random Forest~~                                                      | ~~Learn the ensemble learning concept~~                         |
-| ~~27~~      | ~~Cross Validation~~                                                   | ~~Evaluate models more reliably~~                               |
-| ~~28~~      | ~~Pipeline + GridSearch~~                                              | ~~Build a more professional ML workflow~~                       |
-| ~~29~~      | ~~K-Means clustering~~                                                 | ~~Understand unsupervised learning~~                            |
-| ~~30~~      | ~~PCA~~                                                                | ~~Understand dimensionality reduction~~                         |
-| ~~31~~      | ~~ML final project~~                                                   | ~~Complete an independent end-to-end ML project~~               |
-| ~~32~~      | ~~Perceptron + neuron~~                                                | ~~Understand the most basic building block of neural networks~~ |
-| ~~33~~      | ~~Weight, bias, activation functions~~                                 | ~~Understand how a neuron makes decisions~~                     |
-| ~~34~~      | ~~Hidden layers + forward propagation~~                                | ~~See how data flows through a neural network~~                 |
-| ~~35~~      | ~~Loss function + Gradient Descent~~                                   | ~~Understand how a neural network learns~~                      |
-| ~~36~~      | ~~Backpropagation~~                                                    | ~~Understand how errors update the weights~~                    |
-| ~~37~~      | ~~PyTorch tensors + basics~~                                           | ~~Start writing Deep Learning code~~                            |
-| ~~38~~      | ~~Dataset, DataLoader, batch, epoch, optimizer~~                       | ~~Understand the training loop~~                                |
-| ~~39~~      | ~~First Neural Network with PyTorch~~                                  | ~~Train your own neural network~~                               |
-| ~~40~~      | ~~NLP: token, vocabulary, embedding~~                                  | ~~Understand how text is converted into model input~~           |
-| ~~41~~      | ~~Attention + Self-Attention + Transformer~~                           | ~~Properly understand Transformer architecture~~                |
-| ~~42~~      | ~~Hugging Face + pretrained model + mini AI application~~              | ~~Use a modern AI model in a real application~~                 |
-
 | **Day** | **Topic**                                                          | **Goal by the end of the day**                              |
 | ------- | ------------------------------------------------------------------ | ----------------------------------------------------------- |
 | 1 ✅     | Python review: list, loop, if, function, append, len, max/average  | Be able to write simple algorithms on your own              |
@@ -178,8 +133,6 @@ This makes each day easy to review directly on GitHub.
 
 ### Next
 
-~~**Day 13 — train_test_split, training/test logic**~~
-
 **Day 14 — Linear Regression**
 
 Topics:
@@ -191,13 +144,10 @@ Topics:
 
 Goal:
 
-~~**Understand why models are tested on separate data.**~~
-
 **Build your first model from start to finish.**
 
 For the next study session, you only need to say:
 
-> ~~**“Let’s start Day 13.”**~~
 >
 > **“Let’s start Day 14.”**
 
