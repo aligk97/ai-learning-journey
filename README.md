@@ -19,7 +19,7 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 | 11 ✅    | Correlation, covariance, distributions, boxplot                    | Interpret relationships between variables                   |
 | 12 ✅    | Introduction to ML: feature, target, X, y, supervised/unsupervised | Break down an ML problem into its parts                     |
 | 13 ✅    | train\_test\_split, training/test logic                            | Understand why models are tested on separate data           |
-| 14      | Linear Regression                                                  | Build your first model from start to finish                 |
+| 14 ✅    | Linear Regression                                                  | Build your first model from start to finish                 |
 | 15      | MAE, MSE, RMSE, R²                                                 | Evaluate regression models                                  |
 | 16      | Polynomial Regression                                              | Model non-linear relationships                              |
 | 17      | Overfitting / underfitting                                         | Understand whether a model is memorizing or generalizing    |
@@ -131,24 +131,26 @@ This makes each day easy to review directly on GitHub.
 
 **Day 13 ✅ Completed — train_test_split & training/test logic**
 
+**Day 14 ✅ Completed — Linear Regression**
+
 ### Next
 
-**Day 14 — Linear Regression**
+**Day 15 — MAE, MSE, RMSE, R²**
 
 Topics:
 
-- `LinearRegression`
-- `fit()`
-- `predict()`
-- Training a model from start to finish
+- MAE
+- MSE
+- RMSE
+- R²
 
 Goal:
 
-**Build your first model from start to finish.**
+**Evaluate regression models.**
 
 For the next study session, you only need to say:
 
 >
-> **“Let’s start Day 14.”**
+> **“Let’s start Day 15.”**
 
 This roadmap will remain our **fixed reference** from now on.
