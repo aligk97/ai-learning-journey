@@ -20,7 +20,7 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 | 12 ✅    | Introduction to ML: feature, target, X, y, supervised/unsupervised | Break down an ML problem into its parts                     |
 | 13 ✅    | train\_test\_split, training/test logic                            | Understand why models are tested on separate data           |
 | 14 ✅    | Linear Regression                                                  | Build your first model from start to finish                 |
-| 15      | MAE, MSE, RMSE, R²                                                 | Evaluate regression models                                  |
+| 15 ✅    | MAE, MSE, RMSE, R²                                                 | Evaluate regression models                                  |
 | 16      | Polynomial Regression                                              | Model non-linear relationships                              |
 | 17      | Overfitting / underfitting                                         | Understand whether a model is memorizing or generalizing    |
 | 18      | StandardScaler, normalization, fit, transform, fit\_transform      | Fully understand preprocessing logic                        |
@@ -133,24 +133,26 @@ This makes each day easy to review directly on GitHub.
 
 **Day 14 ✅ Completed — Linear Regression**
 
+**Day 15 ✅ Completed — MAE, MSE, RMSE, R²**
+
 ### Next
 
-**Day 15 — MAE, MSE, RMSE, R²**
+**Day 16 — Polynomial Regression**
 
 Topics:
 
-- MAE
-- MSE
-- RMSE
-- R²
+- Polynomial features
+- Non-linear relationships
+- Polynomial regression model
+- Model visualization
 
 Goal:
 
-**Evaluate regression models.**
+**Model non-linear relationships.**
 
 For the next study session, you only need to say:
 
 >
-> **“Let’s start Day 15.”**
+> **“Let’s start Day 16.”**
 
 This roadmap will remain our **fixed reference** from now on.
