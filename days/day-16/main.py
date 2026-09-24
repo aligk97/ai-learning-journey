@@ -88,6 +88,42 @@ print(regression_model.coef_)
 
 print(predictions)
 
-plt.scatter(X, y)
-plt.plot(X, predictions)
+
+
+
+# minitask 4
+
+# 1. Gerçek verileri scatter plot ile çiz.
+# X ekseni: study_hours
+# y ekseni: score
+
+plt.scatter(X, y, label="Actual")
+
+# 2. Polynomial Regression tahminlerini çizgi olarak çiz.
+# x ekseni: X
+# y ekseni: predictions
+
+plt.plot(X, predictions, label="Polynomial Prediction")
+
+
+# 3. xlabel = "Study Hours"
+
+plt.xlabel("Study Hours")
+
+# 4. ylabel = "Score"
+
+plt.ylabel("Score")
+
+# 5. title = "Polynomial Regression"
+
+plt.title("Polynomial Regression")
+
+# 6. legend ekle.
+
+plt.legend()
+# Gerçek veriler için label="Actual"
+# Tahmin çizgisi için label="Polynomial Prediction"
+
+# 7. Grafiği göster.
+
 plt.show()
