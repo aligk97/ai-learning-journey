@@ -24,7 +24,7 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 | 16 ✅    | Polynomial Regression                                              | Model non-linear relationships                              |
 | 17 ✅    | Overfitting / underfitting                                         | Understand whether a model is memorizing or generalizing    |
 | 18 ✅    | StandardScaler, normalization, fit, transform, fit\_transform      | Fully understand preprocessing logic                        |
-| 19      | Encoding: categorical → numerical                                  | Prepare categorical data for models                         |
+| 19 ✅    | Encoding: categorical → numerical                                  | Prepare categorical data for models                         |
 | 20      | Regression mini project                                            | Complete dataset → preprocessing → model → evaluation       |
 | 21      | Logistic Regression + sigmoid                                      | Move into classification                                    |
 | 22      | Confusion Matrix: TP, TN, FP, FN                                   | Read classification results                                 |
@@ -141,24 +141,26 @@ This makes each day easy to review directly on GitHub.
 
 **Day 18 ✅ Completed — Feature Scaling**
 
+**Day 19 ✅ Completed — Encoding: categorical → numerical**
+
 ### Next
 
-**Day 19 — Encoding: categorical → numerical**
+**Day 20 — Regression mini project**
 
 Topics:
 
-- Categorical features
-- Label/ordinal encoding logic
-- One-hot encoding
-- Preparing categorical data for machine learning
+- End-to-end regression workflow
+- Preprocessing
+- Model training
+- Model evaluation
 
 Goal:
 
-**Prepare categorical data for models.**
+**Complete dataset → preprocessing → model → evaluation.**
 
 For the next study session, you only need to say:
 
 >
-> **“Let’s start Day 19.”**
+> **“Let’s start Day 20.”**
 
 This roadmap will remain our **fixed reference** from now on.
