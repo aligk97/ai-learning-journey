@@ -21,9 +21,9 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 | 13 ✅    | train\_test\_split, training/test logic                            | Understand why models are tested on separate data           |
 | 14 ✅    | Linear Regression                                                  | Build your first model from start to finish                 |
 | 15 ✅    | MAE, MSE, RMSE, R²                                                 | Evaluate regression models                                  |
-| 16      | Polynomial Regression                                              | Model non-linear relationships                              |
-| 17      | Overfitting / underfitting                                         | Understand whether a model is memorizing or generalizing    |
-| 18      | StandardScaler, normalization, fit, transform, fit\_transform      | Fully understand preprocessing logic                        |
+| 16 ✅    | Polynomial Regression                                              | Model non-linear relationships                              |
+| 17 ✅    | Overfitting / underfitting                                         | Understand whether a model is memorizing or generalizing    |
+| 18 ✅    | StandardScaler, normalization, fit, transform, fit\_transform      | Fully understand preprocessing logic                        |
 | 19      | Encoding: categorical → numerical                                  | Prepare categorical data for models                         |
 | 20      | Regression mini project                                            | Complete dataset → preprocessing → model → evaluation       |
 | 21      | Logistic Regression + sigmoid                                      | Move into classification                                    |
@@ -135,24 +135,30 @@ This makes each day easy to review directly on GitHub.
 
 **Day 15 ✅ Completed — MAE, MSE, RMSE, R²**
 
+**Day 16 ✅ Completed — Polynomial Regression**
+
+**Day 17 ✅ Completed — Overfitting / Underfitting**
+
+**Day 18 ✅ Completed — Feature Scaling**
+
 ### Next
 
-**Day 16 — Polynomial Regression**
+**Day 19 — Encoding: categorical → numerical**
 
 Topics:
 
-- Polynomial features
-- Non-linear relationships
-- Polynomial regression model
-- Model visualization
+- Categorical features
+- Label/ordinal encoding logic
+- One-hot encoding
+- Preparing categorical data for machine learning
 
 Goal:
 
-**Model non-linear relationships.**
+**Prepare categorical data for models.**
 
 For the next study session, you only need to say:
 
 >
-> **“Let’s start Day 16.”**
+> **“Let’s start Day 19.”**
 
 This roadmap will remain our **fixed reference** from now on.
