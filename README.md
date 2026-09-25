@@ -25,7 +25,7 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 | 17 ✅    | Overfitting / underfitting                                         | Understand whether a model is memorizing or generalizing    |
 | 18 ✅    | StandardScaler, normalization, fit, transform, fit\_transform      | Fully understand preprocessing logic                        |
 | 19 ✅    | Encoding: categorical → numerical                                  | Prepare categorical data for models                         |
-| 20      | Regression mini project                                            | Complete dataset → preprocessing → model → evaluation       |
+| 20 ✅    | Regression mini project                                            | Complete dataset → preprocessing → model → evaluation       |
 | 21      | Logistic Regression + sigmoid                                      | Move into classification                                    |
 | 22      | Confusion Matrix: TP, TN, FP, FN                                   | Read classification results                                 |
 | 23      | Accuracy, Precision, Recall, F1                                    | Choose the correct evaluation metric                        |
@@ -143,24 +143,25 @@ This makes each day easy to review directly on GitHub.
 
 **Day 19 ✅ Completed — Encoding: categorical → numerical**
 
+**Day 20 ✅ Completed — Regression mini project**
+
 ### Next
 
-**Day 20 — Regression mini project**
+**Day 21 — Logistic Regression + sigmoid**
 
 Topics:
 
-- End-to-end regression workflow
-- Preprocessing
-- Model training
-- Model evaluation
+- Logistic regression
+- Sigmoid function
+- Classification basics
 
 Goal:
 
-**Complete dataset → preprocessing → model → evaluation.**
+**Move into classification.**
 
 For the next study session, you only need to say:
 
 >
-> **“Let’s start Day 20.”**
+> **“Let’s start Day 21.”**
 
 This roadmap will remain our **fixed reference** from now on.
