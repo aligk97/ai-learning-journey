@@ -1,77 +1,85 @@
-# Day 21 — Logistic Regression + Sigmoid
+# Day 21 - Logistic Regression + Sigmoid
 
-Today I learned the fundamentals of binary classification using Logistic Regression.
-
-## Topics Covered
+## Konular
 
 - Logistic Regression
+- Classification mantığı
 - Binary classification
-- Sigmoid concept
+- Sigmoid fonksiyonu
 - `predict()`
 - `predict_proba()`
 - Classification threshold
-- Custom threshold logic
-- Predictions on unseen data
-- Train/test workflow for classification
+- Custom threshold mantığı
+- Yeni veri üzerinde tahmin
+- Train/test workflow
 - Accuracy score
 
 ## Logistic Regression
 
-Logistic Regression is mainly used for classification problems.
+Logistic Regression, ismine rağmen çoğunlukla classification problemlerinde kullanılır.
 
-Instead of predicting a continuous numerical value, the model predicts a class.
+Regression tarafında model sürekli bir sayı tahmin ederken, classification tarafında model bir sınıf tahmin eder.
 
-Example:
-
-```text
-0 = Not Purchased
-1 = Purchased
-```
-
-Although the model is called Logistic Regression, it is commonly used for classification.
-
-## Probability and Sigmoid
-
-Logistic Regression internally produces probabilities between `0` and `1`.
-
-Example:
+Örneğin:
 
 ```text
-0.18 → low probability of class 1
-0.84 → high probability of class 1
+0 -> Not Purchased
+1 -> Purchased
 ```
 
-The sigmoid function is responsible for converting values into this probability range.
+Bu günün ana farkı:
+
+```text
+Linear Regression  -> sayı tahmini
+Logistic Regression -> sınıf tahmini
+```
+
+## Sigmoid Mantığı
+
+Logistic Regression modelinin çıktısı olasılık olarak yorumlanır.
+
+Sigmoid fonksiyonu değerleri `0` ile `1` aralığına sıkıştırır.
+
+Örneğin:
+
+```text
+0.18 -> class 1 olma ihtimali düşük
+0.84 -> class 1 olma ihtimali yüksek
+```
+
+Bu yüzden Logistic Regression, bir örneğin hangi sınıfa ait olabileceğini olasılık üzerinden değerlendirir.
 
 ## predict()
 
-`predict()` returns the final predicted class.
+`predict()` doğrudan final sınıf tahminini döndürür.
 
 ```python
 predictions = model.predict(X_test)
 ```
 
-Example:
+Örnek çıktı:
 
 ```text
 [0, 0, 1, 1]
 ```
 
+Bu çıktı artık sürekli sayılar değil, sınıf etiketleridir.
+
 ## predict_proba()
 
-`predict_proba()` returns the probabilities for every class.
+`predict_proba()` her sınıf için olasılık değerlerini döndürür.
 
 ```python
 probabilities = model.predict_proba(X_test)
 ```
 
-For binary classification, each row contains:
+Binary classification için her satır genelde şu yapıda olur:
 
 ```text
 [class_0_probability, class_1_probability]
 ```
 
-To get only the probability of class `1`:
+Sadece `1` sınıfının olasılığını almak için ikinci sütun seçilir:
 
 ```python
 class_1_probabilities = model.predict_proba(X_test)[:, 1]
@@ -79,14 +87,14 @@ class_1_probabilities = model.predict_proba(X_test)[:, 1]
 
 ## Classification Threshold
 
-The default classification threshold is generally `0.5`.
+Varsayılan threshold çoğunlukla `0.5` olarak düşünülür.
 
 ```text
-probability < 0.5  → class 0
-probability >= 0.5 → class 1
+probability < 0.5  -> class 0
+probability >= 0.5 -> class 1
 ```
 
-The same logic can also be implemented manually:
+Aynı mantık elle de yazılabilir:
 
 ```python
 custom_predictions = []
@@ -98,9 +106,11 @@ for probability in probabilities:
         custom_predictions.append(0)
 ```
 
-## Predicting New Data
+Bu mantık, `predict()` fonksiyonunun arka plandaki karar verme fikrini daha anlaşılır hale getirir.
 
-After training the model, predictions can be made on previously unseen data.
+## Yeni Veri Üzerinde Tahmin
+
+Model eğitildikten sonra daha önce görmediği yeni bir müşteri için sınıf tahmini yapılabilir.
 
 ```python
 new_customer = pd.DataFrame({
@@ -112,9 +122,14 @@ prediction = model.predict(new_customer)
 probability = model.predict_proba(new_customer)[:, 1]
 ```
 
+Burada:
+
+- `prediction` final sınıfı verir.
+- `probability` ilgili sınıfa ait olasılığı verir.
+
 ## Accuracy
 
-Accuracy measures how many predictions the model classified correctly.
+Accuracy, modelin test verisindeki tahminlerinin ne kadarının doğru olduğunu gösterir.
 
 ```python
 from sklearn.metrics import accuracy_score
@@ -122,27 +137,41 @@ from sklearn.metrics import accuracy_score
 accuracy = accuracy_score(y_test, predictions)
 ```
 
-For example:
+Örneğin:
 
 ```text
-0.80 = 80% accuracy
+0.80 = tahminlerin %80'i doğru
 ```
 
-## Final Understanding
+Accuracy classification için başlangıçta faydalı bir metriktir, fakat tek başına her zaman yeterli değildir. Bu yüzden sonraki gün confusion matrix ile sonuçları daha detaylı okumak gerekir.
 
-By the end of Day 21, I can:
+## Final Check Özeti
 
-- Build a Logistic Regression model
-- Understand the difference between regression and classification
-- Use `predict()` for class predictions
-- Use `predict_proba()` for probabilities
-- Extract the probability of a specific class
-- Understand classification thresholds
-- Apply a threshold manually
-- Predict previously unseen data
-- Split classification data into train and test sets
-- Evaluate a classification model using accuracy
+Final check'te `age`, `income` ve `purchased` sütunlarından oluşan küçük bir müşteri DataFrame'i kullanıldı.
+
+Yapılan işlemler:
+
+- `age` ve `income` feature olarak `X` değişkenine atandı.
+- `purchased` target olarak `y` değişkenine atandı.
+- Veri train/test olarak ayrıldı.
+- `LogisticRegression` modeli oluşturuldu.
+- Model yalnızca train verisiyle eğitildi.
+- Test verisi üzerinde sınıf tahminleri yapıldı.
+- `accuracy_score` ile accuracy hesaplandı.
+- Test verisi için `purchased=1` olasılıkları alındı.
+- Yeni bir müşteri için hem sınıf tahmini hem de satın alma olasılığı hesaplandı.
+
+## Gün Sonu Özeti
+
+Day 21 sonunda regression problemlerinden classification problemlerine geçiş yapıldı.
+
+Bu günün temel fikri:
+
+```text
+Model sadece sınıf tahmini yapmaz;
+aynı zamanda bu sınıfa ait olasılığı da hesaplayabilir.
+```
 
 ## Next
 
-Day 22 — Classification Evaluation
+Day 22 - Confusion Matrix: TP, TN, FP, FN

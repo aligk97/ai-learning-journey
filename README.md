@@ -26,7 +26,7 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 | 18 ✅    | StandardScaler, normalization, fit, transform, fit\_transform      | Fully understand preprocessing logic                        |
 | 19 ✅    | Encoding: categorical → numerical                                  | Prepare categorical data for models                         |
 | 20 ✅    | Regression mini project                                            | Complete dataset → preprocessing → model → evaluation       |
-| 21      | Logistic Regression + sigmoid                                      | Move into classification                                    |
+| 21 ✅    | Logistic Regression + sigmoid                                      | Move into classification                                    |
 | 22      | Confusion Matrix: TP, TN, FP, FN                                   | Read classification results                                 |
 | 23      | Accuracy, Precision, Recall, F1                                    | Choose the correct evaluation metric                        |
 | 24      | KNN                                                                | Understand distance-based models                            |
@@ -145,23 +145,26 @@ This makes each day easy to review directly on GitHub.
 
 **Day 20 ✅ Completed — Regression mini project**
 
+**Day 21 ✅ Completed — Logistic Regression + sigmoid**
+
 ### Next
 
-**Day 21 — Logistic Regression + sigmoid**
+**Day 22 — Confusion Matrix: TP, TN, FP, FN**
 
 Topics:
 
-- Logistic regression
-- Sigmoid function
-- Classification basics
+- Confusion matrix
+- True Positive / True Negative
+- False Positive / False Negative
+- Classification result analysis
 
 Goal:
 
-**Move into classification.**
+**Read classification results clearly.**
 
 For the next study session, you only need to say:
 
 >
-> **“Let’s start Day 21.”**
+> **“Let’s start Day 22.”**
 
 This roadmap will remain our **fixed reference** from now on.
