@@ -27,7 +27,7 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 | 19 ✅    | Encoding: categorical → numerical                                  | Prepare categorical data for models                         |
 | 20 ✅    | Regression mini project                                            | Complete dataset → preprocessing → model → evaluation       |
 | 21 ✅    | Logistic Regression + sigmoid                                      | Move into classification                                    |
-| 22      | Confusion Matrix: TP, TN, FP, FN                                   | Read classification results                                 |
+| 22 ✅    | Confusion Matrix: TP, TN, FP, FN                                   | Read classification results                                 |
 | 23      | Accuracy, Precision, Recall, F1                                    | Choose the correct evaluation metric                        |
 | 24      | KNN                                                                | Understand distance-based models                            |
 | 25      | Decision Tree                                                      | Understand how decision trees make decisions                |
@@ -147,24 +147,27 @@ This makes each day easy to review directly on GitHub.
 
 **Day 21 ✅ Completed — Logistic Regression + sigmoid**
 
+**Day 22 ✅ Completed — Confusion Matrix: TP, TN, FP, FN**
+
 ### Next
 
-**Day 22 — Confusion Matrix: TP, TN, FP, FN**
+**Day 23 — Accuracy, Precision, Recall, F1**
 
 Topics:
 
-- Confusion matrix
-- True Positive / True Negative
-- False Positive / False Negative
-- Classification result analysis
+- Accuracy
+- Precision
+- Recall
+- F1 score
+- Choosing the correct classification metric
 
 Goal:
 
-**Read classification results clearly.**
+**Choose the correct evaluation metric.**
 
 For the next study session, you only need to say:
 
 >
-> **“Let’s start Day 22.”**
+> **“Let’s start Day 23.”**
 
 This roadmap will remain our **fixed reference** from now on.
