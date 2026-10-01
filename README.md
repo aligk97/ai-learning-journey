@@ -29,8 +29,8 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 | 21 ✅    | Logistic Regression + sigmoid                                      | Move into classification                                    |
 | 22 ✅    | Confusion Matrix: TP, TN, FP, FN                                   | Read classification results                                 |
 | 23 ✅    | Accuracy, Precision, Recall, F1                                    | Choose the correct evaluation metric                        |
-| 24      | KNN                                                                | Understand distance-based models                            |
-| 25      | Decision Tree                                                      | Understand how decision trees make decisions                |
+| 24 ✅    | KNN                                                                | Understand distance-based models                            |
+| 25 ✅    | Decision Tree                                                      | Understand how decision trees make decisions                |
 | 26      | Random Forest                                                      | Learn the ensemble learning concept                         |
 | 27      | Cross Validation                                                   | Evaluate models more reliably                               |
 | 28      | Pipeline + GridSearch                                              | Build a more professional ML workflow                       |
@@ -151,24 +151,28 @@ This makes each day easy to review directly on GitHub.
 
 **Day 23 ✅ Completed — Accuracy, Precision, Recall, F1**
 
+**Day 24 ✅ Completed — KNN**
+
+**Day 25 ✅ Completed — Decision Tree**
+
 ### Next
 
-**Day 24 — KNN**
+**Day 26 — Random Forest**
 
 Topics:
 
-- KNN
-- Distance-based models
-- Choosing K
-- Classification with neighbors
+- Random Forest
+- Ensemble learning
+- Multiple decision trees
+- Model stability
 
 Goal:
 
-**Understand distance-based models.**
+**Learn the ensemble learning concept.**
 
 For the next study session, you only need to say:
 
 >
-> **“Let’s start Day 24.”**
+> **“Let’s start Day 26.”**
 
 This roadmap will remain our **fixed reference** from now on.
