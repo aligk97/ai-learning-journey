@@ -31,7 +31,7 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 | 23 ✅    | Accuracy, Precision, Recall, F1                                    | Choose the correct evaluation metric                        |
 | 24 ✅    | KNN                                                                | Understand distance-based models                            |
 | 25 ✅    | Decision Tree                                                      | Understand how decision trees make decisions                |
-| 26      | Random Forest                                                      | Learn the ensemble learning concept                         |
+| 26 ✅    | Random Forest                                                      | Learn the ensemble learning concept                         |
 | 27      | Cross Validation                                                   | Evaluate models more reliably                               |
 | 28      | Pipeline + GridSearch                                              | Build a more professional ML workflow                       |
 | 29      | K-Means clustering                                                 | Understand unsupervised learning                            |
@@ -155,24 +155,27 @@ This makes each day easy to review directly on GitHub.
 
 **Day 25 ✅ Completed — Decision Tree**
 
+**Day 26 ✅ Completed — Random Forest**
+
 ### Next
 
-**Day 26 — Random Forest**
+**Day 27 — Cross Validation**
 
 Topics:
 
-- Random Forest
-- Ensemble learning
-- Multiple decision trees
-- Model stability
+- Cross Validation
+- K-Fold
+- Stratified K-Fold
+- cross_val_score
+- Mean score and score variation
 
 Goal:
 
-**Learn the ensemble learning concept.**
+**Evaluate models more reliably.**
 
 For the next study session, you only need to say:
 
 >
-> **“Let’s start Day 26.”**
+> **“Let’s start Day 27.”**
 
 This roadmap will remain our **fixed reference** from now on.
