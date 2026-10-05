@@ -18,12 +18,12 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 | 10 ✅    | Statistics basics: mean, median, variance, std, quartile, outlier  | Understand common statistics terms used in ML               |
 | 11 ✅    | Correlation, covariance, distributions, boxplot                    | Interpret relationships between variables                   |
 | 12 ✅    | Introduction to ML: feature, target, X, y, supervised/unsupervised | Break down an ML problem into its parts                     |
-| 13 ✅    | train\_test\_split, training/test logic                            | Understand why models are tested on separate data           |
+| 13 ✅    | train_test_split, training/test logic                              | Understand why models are tested on separate data           |
 | 14 ✅    | Linear Regression                                                  | Build your first model from start to finish                 |
 | 15 ✅    | MAE, MSE, RMSE, R²                                                 | Evaluate regression models                                  |
 | 16 ✅    | Polynomial Regression                                              | Model non-linear relationships                              |
 | 17 ✅    | Overfitting / underfitting                                         | Understand whether a model is memorizing or generalizing    |
-| 18 ✅    | StandardScaler, normalization, fit, transform, fit\_transform      | Fully understand preprocessing logic                        |
+| 18 ✅    | StandardScaler, normalization, fit, transform, fit_transform       | Fully understand preprocessing logic                        |
 | 19 ✅    | Encoding: categorical → numerical                                  | Prepare categorical data for models                         |
 | 20 ✅    | Regression mini project                                            | Complete dataset → preprocessing → model → evaluation       |
 | 21 ✅    | Logistic Regression + sigmoid                                      | Move into classification                                    |
@@ -32,9 +32,9 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 | 24 ✅    | KNN                                                                | Understand distance-based models                            |
 | 25 ✅    | Decision Tree                                                      | Understand how decision trees make decisions                |
 | 26 ✅    | Random Forest                                                      | Learn the ensemble learning concept                         |
-| 27      | Cross Validation                                                   | Evaluate models more reliably                               |
-| 28      | Pipeline + GridSearch                                              | Build a more professional ML workflow                       |
-| 29      | K-Means clustering                                                 | Understand unsupervised learning                            |
+| 27 ✅    | Cross Validation                                                   | Evaluate models more reliably                               |
+| 28 ✅    | Pipeline + GridSearch                                              | Build a more professional ML workflow                       |
+| 29 ✅    | K-Means clustering                                                 | Understand unsupervised learning                            |
 | 30      | PCA                                                                | Understand dimensionality reduction                         |
 | 31      | ML final project                                                   | Complete an independent end-to-end ML project               |
 | 32      | Perceptron + neuron                                                | Understand the most basic building block of neural networks |
@@ -157,25 +157,30 @@ This makes each day easy to review directly on GitHub.
 
 **Day 26 ✅ Completed — Random Forest**
 
+**Day 27 ✅ Completed — Cross Validation**
+
+**Day 28 ✅ Completed — Pipeline + GridSearchCV**
+
+**Day 29 ✅ Completed — K-Means Clustering**
+
 ### Next
 
-**Day 27 — Cross Validation**
+**Day 30 — PCA**
 
 Topics:
 
-- Cross Validation
-- K-Fold
-- Stratified K-Fold
-- cross_val_score
-- Mean score and score variation
+- Dimensionality Reduction
+- Principal Components
+- Explained Variance
+- PCA with scikit-learn
+- Scaling before PCA
 
 Goal:
 
-**Evaluate models more reliably.**
+**Understand dimensionality reduction and how PCA represents data with fewer features.**
 
 For the next study session, you only need to say:
 
->
-> **“Let’s start Day 27.”**
+> **“Let’s start Day 30.”**
 
 This roadmap will remain our **fixed reference** from now on.
