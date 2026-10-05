@@ -35,7 +35,7 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 | 27 ✅    | Cross Validation                                                   | Evaluate models more reliably                               |
 | 28 ✅    | Pipeline + GridSearch                                              | Build a more professional ML workflow                       |
 | 29 ✅    | K-Means clustering                                                 | Understand unsupervised learning                            |
-| 30      | PCA                                                                | Understand dimensionality reduction                         |
+| 30 ✅    | PCA                                                                | Understand dimensionality reduction                         |
 | 31      | ML final project                                                   | Complete an independent end-to-end ML project               |
 | 32      | Perceptron + neuron                                                | Understand the most basic building block of neural networks |
 | 33      | Weight, bias, activation functions                                 | Understand how a neuron makes decisions                     |
@@ -163,24 +163,18 @@ This makes each day easy to review directly on GitHub.
 
 **Day 29 ✅ Completed — K-Means Clustering**
 
+**Day 30 ✅ Completed — PCA**
+
 ### Next
 
-**Day 30 — PCA**
-
-Topics:
-
-- Dimensionality Reduction
-- Principal Components
-- Explained Variance
-- PCA with scikit-learn
-- Scaling before PCA
+**Day 31 — ML Final Project**
 
 Goal:
 
-**Understand dimensionality reduction and how PCA represents data with fewer features.**
+**Complete an independent end-to-end Machine Learning project using the concepts learned so far.**
 
 For the next study session, you only need to say:
 
-> **“Let’s start Day 30.”**
+> **“Let’s start Day 31.”**
 
 This roadmap will remain our **fixed reference** from now on.
