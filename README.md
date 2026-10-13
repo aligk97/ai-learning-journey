@@ -37,7 +37,7 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 | 29 ✅    | K-Means clustering                                                 | Understand unsupervised learning                            |
 | 30 ✅    | PCA                                                                | Understand dimensionality reduction                         |
 | 31      | ML final project                                                   | Complete an independent end-to-end ML project               |
-| 32      | Perceptron + neuron                                                | Understand the most basic building block of neural networks |
+| 32 ✅    | Perceptron + neuron                                                | Understand the most basic building block of neural networks |
 | 33      | Weight, bias, activation functions                                 | Understand how a neuron makes decisions                     |
 | 34      | Hidden layers + forward propagation                                | See how data flows through a neural network                 |
 | 35      | Loss function + Gradient Descent                                   | Understand how a neural network learns                      |
@@ -165,16 +165,22 @@ This makes each day easy to review directly on GitHub.
 
 **Day 30 ✅ Completed — PCA**
 
-### Next
+**Day 32 ✅ Completed — Perceptron + Artificial Neuron**
 
-**Day 31 — ML Final Project**
+### Current Learning Tracks
 
-Goal:
+**Day 31 — ML Final Project (in progress)**
 
-**Complete an independent end-to-end Machine Learning project using the concepts learned so far.**
+Build an independent end-to-end car price prediction project, using the ML concepts learned so far. This project continues in parallel with the neural-network lessons.
 
-For the next study session, you only need to say:
+**Day 32 ✅ — Perceptron + Artificial Neuron (completed)**
 
-> **“Let’s start Day 31.”**
+Learned the weighted sum, step activation, perceptron learning rule, learning rate, and epochs. Practiced training a perceptron on an OR gate.
 
-This roadmap will remain our **fixed reference** from now on.
+### Next Lesson
+
+**Day 33 — Weight, Bias & Activation Functions**
+
+Understand how changing the activation function affects a neuron's output.
+
+The original 42-day roadmap remains the **fixed reference**. Day 31 stays in progress while Deep Learning continues from Day 32 onward.
