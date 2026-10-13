@@ -38,7 +38,7 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 | 30 ✅    | PCA                                                                | Understand dimensionality reduction                         |
 | 31      | ML final project                                                   | Complete an independent end-to-end ML project               |
 | 32 ✅    | Perceptron + neuron                                                | Understand the most basic building block of neural networks |
-| 33      | Weight, bias, activation functions                                 | Understand how a neuron makes decisions                     |
+| 33 ✅    | Weight, bias, activation functions                                 | Understand how a neuron makes decisions                     |
 | 34      | Hidden layers + forward propagation                                | See how data flows through a neural network                 |
 | 35      | Loss function + Gradient Descent                                   | Understand how a neural network learns                      |
 | 36      | Backpropagation                                                    | Understand how errors update the weights                    |
@@ -167,6 +167,8 @@ This makes each day easy to review directly on GitHub.
 
 **Day 32 ✅ Completed — Perceptron + Artificial Neuron**
 
+**Day 33 ✅ Completed — Weight, Bias & Activation Functions**
+
 ### Current Learning Tracks
 
 **Day 31 — ML Final Project (in progress)**
@@ -177,10 +179,14 @@ Build an independent end-to-end car price prediction project, using the ML conce
 
 Learned the weighted sum, step activation, perceptron learning rule, learning rate, and epochs. Practiced training a perceptron on an OR gate.
 
+**Day 33 ✅ — Weight, Bias & Activation Functions (completed)**
+
+Compared Sigmoid, ReLU, and Tanh; explored weight, bias, appropriate output activations, and derivative/Gradient Descent intuition. The derivative questions were Day 33 reinforcement, not a separate new day.
+
 ### Next Lesson
 
-**Day 33 — Weight, Bias & Activation Functions**
+**Day 34 — Hidden Layers & Forward Propagation**
 
-Understand how changing the activation function affects a neuron's output.
+Understand how information flows through connected neurons in a multi-layer network. **Not started yet.**
 
 The original 42-day roadmap remains the **fixed reference**. Day 31 stays in progress while Deep Learning continues from Day 32 onward.
