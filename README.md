@@ -39,7 +39,7 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 | 31      | ML final project                                                   | Complete an independent end-to-end ML project               |
 | 32 ✅    | Perceptron + neuron                                                | Understand the most basic building block of neural networks |
 | 33 ✅    | Weight, bias, activation functions                                 | Understand how a neuron makes decisions                     |
-| 34      | Hidden layers + forward propagation                                | See how data flows through a neural network                 |
+| 34 ✅    | Hidden layers + forward propagation                                | See how data flows through a neural network                 |
 | 35      | Loss function + Gradient Descent                                   | Understand how a neural network learns                      |
 | 36      | Backpropagation                                                    | Understand how errors update the weights                    |
 | 37      | PyTorch tensors + basics                                           | Start writing Deep Learning code                            |
@@ -169,6 +169,8 @@ This makes each day easy to review directly on GitHub.
 
 **Day 33 ✅ Completed — Weight, Bias & Activation Functions**
 
+**Day 34 ✅ Completed — Hidden Layers & Forward Propagation**
+
 ### Current Learning Tracks
 
 **Day 31 — ML Final Project (in progress)**
@@ -183,10 +185,14 @@ Learned the weighted sum, step activation, perceptron learning rule, learning ra
 
 Compared Sigmoid, ReLU, and Tanh; explored weight, bias, appropriate output activations, and derivative/Gradient Descent intuition. The derivative questions were Day 33 reinforcement, not a separate new day.
 
+**Day 34 ✅ — Hidden Layers & Forward Propagation (completed)**
+
+Learned hidden layers, ReLU, NumPy matrix multiplication, how weight-matrix dimensions reflect the network architecture, forward propagation, and batch processing. These calculations used fixed weights; model training starts in later lessons.
+
 ### Next Lesson
 
-**Day 34 — Hidden Layers & Forward Propagation**
+**Day 35 — Loss Function & Gradient Descent**
 
-Understand how information flows through connected neurons in a multi-layer network. **Not started yet.**
+Learn to measure prediction error and understand the basic direction of parameter updates.
 
 The original 42-day roadmap remains the **fixed reference**. Day 31 stays in progress while Deep Learning continues from Day 32 onward.
