@@ -41,7 +41,7 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 | 33 ✅    | Weight, bias, activation functions                                 | Understand how a neuron makes decisions                     |
 | 34 ✅    | Hidden layers + forward propagation                                | See how data flows through a neural network                 |
 | 35 ✅    | Loss function + Gradient Descent                                   | Understand how a neural network learns                      |
-| 36      | Backpropagation                                                    | Understand how errors update the weights                    |
+| 36 ✅    | Backpropagation                                                    | Understand how errors update the weights                    |
 | 37      | PyTorch tensors + basics                                           | Start writing Deep Learning code                            |
 | 38      | Dataset, DataLoader, batch, epoch, optimizer                       | Understand the training loop                                |
 | 39      | First Neural Network with PyTorch                                  | Train your own neural network                               |
@@ -173,6 +173,8 @@ This makes each day easy to review directly on GitHub.
 
 **Day 35 ✅ Completed — Loss Functions & Gradient Descent**
 
+**Day 36 ✅ Completed — Backpropagation with NumPy**
+
 ### Current Learning Tracks
 
 **Day 31 — ML Final Project (in progress)**
@@ -195,10 +197,14 @@ Learned hidden layers, ReLU, NumPy matrix multiplication, how weight-matrix dime
 
 Learned MSE and Binary Cross-Entropy, gradient direction, learning rate, and weight updates with NumPy. Reviewed the chain-rule intuition for backpropagation; Day 36 will cover full multilayer derivatives.
 
+**Day 36 ✅ — Backpropagation (completed)**
+
+Applied chain-rule gradients to a 2-input, 2-hidden-neuron, 1-output network using NumPy. Covered ReLU gradient blocking, batch MSE derivatives, bias updates, matrix shapes, and a verified full learning step.
+
 ### Next Lesson
 
-**Day 36 — Backpropagation**
+**Day 37 — PyTorch Tensors & Basics**
 
-Apply the chain rule across hidden and output layers, compute gradients with NumPy, and use them to train a small neural network.
+Understand tensor creation, shapes, tensor operations, and the foundation of PyTorch autograd.
 
 The original 42-day roadmap remains the **fixed reference**. Day 31 stays in progress while Deep Learning continues from Day 32 onward.
