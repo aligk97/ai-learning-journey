@@ -42,7 +42,7 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 | 34 ✅    | Hidden layers + forward propagation                                | See how data flows through a neural network                 |
 | 35 ✅    | Loss function + Gradient Descent                                   | Understand how a neural network learns                      |
 | 36 ✅    | Backpropagation                                                    | Understand how errors update the weights                    |
-| 37      | PyTorch tensors + basics                                           | Start writing Deep Learning code                            |
+| 37 ✅    | PyTorch tensors + basics                                           | Start writing Deep Learning code                            |
 | 38      | Dataset, DataLoader, batch, epoch, optimizer                       | Understand the training loop                                |
 | 39      | First Neural Network with PyTorch                                  | Train your own neural network                               |
 | 40      | NLP: token, vocabulary, embedding                                  | Understand how text is converted into model input           |
@@ -175,6 +175,8 @@ This makes each day easy to review directly on GitHub.
 
 **Day 36 ✅ Completed — Backpropagation with NumPy**
 
+**Day 37 ✅ Completed — PyTorch Tensors & Basics**
+
 ### Current Learning Tracks
 
 **Day 31 — ML Final Project (in progress)**
@@ -201,10 +203,14 @@ Learned MSE and Binary Cross-Entropy, gradient direction, learning rate, and wei
 
 Applied chain-rule gradients to a 2-input, 2-hidden-neuron, 1-output network using NumPy. Covered ReLU gradient blocking, batch MSE derivatives, bias updates, matrix shapes, and a verified full learning step.
 
+**Day 37 ✅ — PyTorch Tensors & Basics (completed)**
+
+Practiced tensor shapes, matrix multiplication, automatic differentiation with `requires_grad` and `backward`, loss gradients versus output gradients, manual Gradient Descent with `torch.no_grad()`, gradient accumulation and `zero_()`, CPU/GPU device selection, and NumPy conversions.
+
 ### Next Lesson
 
-**Day 37 — PyTorch Tensors & Basics**
+**Day 38 — Dataset, DataLoader, Batch, Epoch & Optimizer**
 
-Understand tensor creation, shapes, tensor operations, and the foundation of PyTorch autograd.
+Learn how to organize datasets, train in batches, and use a PyTorch optimizer in a repeatable training loop.
 
 The original 42-day roadmap remains the **fixed reference**. Day 31 stays in progress while Deep Learning continues from Day 32 onward.
