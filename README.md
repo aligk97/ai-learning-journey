@@ -40,7 +40,7 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 | 32 ✅    | Perceptron + neuron                                                | Understand the most basic building block of neural networks |
 | 33 ✅    | Weight, bias, activation functions                                 | Understand how a neuron makes decisions                     |
 | 34 ✅    | Hidden layers + forward propagation                                | See how data flows through a neural network                 |
-| 35      | Loss function + Gradient Descent                                   | Understand how a neural network learns                      |
+| 35 ✅    | Loss function + Gradient Descent                                   | Understand how a neural network learns                      |
 | 36      | Backpropagation                                                    | Understand how errors update the weights                    |
 | 37      | PyTorch tensors + basics                                           | Start writing Deep Learning code                            |
 | 38      | Dataset, DataLoader, batch, epoch, optimizer                       | Understand the training loop                                |
@@ -171,6 +171,8 @@ This makes each day easy to review directly on GitHub.
 
 **Day 34 ✅ Completed — Hidden Layers & Forward Propagation**
 
+**Day 35 ✅ Completed — Loss Functions & Gradient Descent**
+
 ### Current Learning Tracks
 
 **Day 31 — ML Final Project (in progress)**
@@ -189,10 +191,14 @@ Compared Sigmoid, ReLU, and Tanh; explored weight, bias, appropriate output acti
 
 Learned hidden layers, ReLU, NumPy matrix multiplication, how weight-matrix dimensions reflect the network architecture, forward propagation, and batch processing. These calculations used fixed weights; model training starts in later lessons.
 
+**Day 35 ✅ — Loss Functions & Gradient Descent (completed)**
+
+Learned MSE and Binary Cross-Entropy, gradient direction, learning rate, and weight updates with NumPy. Reviewed the chain-rule intuition for backpropagation; Day 36 will cover full multilayer derivatives.
+
 ### Next Lesson
 
-**Day 35 — Loss Function & Gradient Descent**
+**Day 36 — Backpropagation**
 
-Learn to measure prediction error and understand the basic direction of parameter updates.
+Apply the chain rule across hidden and output layers, compute gradients with NumPy, and use them to train a small neural network.
 
 The original 42-day roadmap remains the **fixed reference**. Day 31 stays in progress while Deep Learning continues from Day 32 onward.
