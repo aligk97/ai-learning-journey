@@ -44,7 +44,7 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 | 36 ✅    | Backpropagation                                                    | Understand how errors update the weights                    |
 | 37 ✅    | PyTorch tensors + basics                                           | Start writing Deep Learning code                            |
 | 38 ✅    | Dataset, DataLoader, batch, epoch, optimizer                       | Understand the training loop                                |
-| 39      | First Neural Network with PyTorch                                  | Train your own neural network                               |
+| 39 ✅    | First Neural Network with PyTorch                                  | Train your own neural network                               |
 | 40      | NLP: token, vocabulary, embedding                                  | Understand how text is converted into model input           |
 | 41      | Attention + Self-Attention + Transformer                           | Properly understand Transformer architecture                |
 | 42      | Hugging Face + pretrained model + mini AI application              | Use a modern AI model in a real application                 |
@@ -179,6 +179,8 @@ This makes each day easy to review directly on GitHub.
 
 **Day 38 ✅ Completed — PyTorch Dataset, DataLoader & Training Loop**
 
+**Day 39 ✅ Completed — First Neural Network with PyTorch**
+
 ### Current Learning Tracks
 
 **Day 31 — ML Final Project (in progress)**
@@ -213,10 +215,14 @@ Practiced tensor shapes, matrix multiplication, automatic differentiation with `
 
 Learned `TensorDataset`, `DataLoader`, batch versus epoch, `nn.Linear`, MSE loss, SGD, `zero_grad` / `backward` / `step`, the full training loop, and the distinction between `model.train()`, `model.eval()`, and `torch.no_grad()`. Trained a linear model to recover the rule `y = 2x + 1`.
 
+**Day 39 ✅ — First Neural Network with PyTorch (completed)**
+
+Built a two-input neural network using `nn.Module`, `nn.Linear`, ReLU, and `forward()`. Trained it with Adam and MSE loss, inspected its 17 learnable parameters, and compared `model.train()`, `model.eval()`, and `torch.no_grad()`.
+
 ### Next Lesson
 
-**Day 39 — First Neural Network with PyTorch**
+**Day 40 — NLP: Token, Vocabulary & Embedding**
 
-Build and train a multilayer neural network using `nn.Module`, activation functions, and the PyTorch training loop.
+Learn how natural-language text becomes model input through tokenization, vocabularies, and embeddings.
 
 The original 42-day roadmap remains the **fixed reference**. Day 31 stays in progress while Deep Learning continues from Day 32 onward.
