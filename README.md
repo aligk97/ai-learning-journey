@@ -43,7 +43,7 @@ My journey from Python fundamentals to Machine Learning, Deep Learning, and mode
 | 35 ✅    | Loss function + Gradient Descent                                   | Understand how a neural network learns                      |
 | 36 ✅    | Backpropagation                                                    | Understand how errors update the weights                    |
 | 37 ✅    | PyTorch tensors + basics                                           | Start writing Deep Learning code                            |
-| 38      | Dataset, DataLoader, batch, epoch, optimizer                       | Understand the training loop                                |
+| 38 ✅    | Dataset, DataLoader, batch, epoch, optimizer                       | Understand the training loop                                |
 | 39      | First Neural Network with PyTorch                                  | Train your own neural network                               |
 | 40      | NLP: token, vocabulary, embedding                                  | Understand how text is converted into model input           |
 | 41      | Attention + Self-Attention + Transformer                           | Properly understand Transformer architecture                |
@@ -177,6 +177,8 @@ This makes each day easy to review directly on GitHub.
 
 **Day 37 ✅ Completed — PyTorch Tensors & Basics**
 
+**Day 38 ✅ Completed — PyTorch Dataset, DataLoader & Training Loop**
+
 ### Current Learning Tracks
 
 **Day 31 — ML Final Project (in progress)**
@@ -207,10 +209,14 @@ Applied chain-rule gradients to a 2-input, 2-hidden-neuron, 1-output network usi
 
 Practiced tensor shapes, matrix multiplication, automatic differentiation with `requires_grad` and `backward`, loss gradients versus output gradients, manual Gradient Descent with `torch.no_grad()`, gradient accumulation and `zero_()`, CPU/GPU device selection, and NumPy conversions.
 
+**Day 38 ✅ — Dataset, DataLoader, Batch, Epoch & Optimizer (completed)**
+
+Learned `TensorDataset`, `DataLoader`, batch versus epoch, `nn.Linear`, MSE loss, SGD, `zero_grad` / `backward` / `step`, the full training loop, and the distinction between `model.train()`, `model.eval()`, and `torch.no_grad()`. Trained a linear model to recover the rule `y = 2x + 1`.
+
 ### Next Lesson
 
-**Day 38 — Dataset, DataLoader, Batch, Epoch & Optimizer**
+**Day 39 — First Neural Network with PyTorch**
 
-Learn how to organize datasets, train in batches, and use a PyTorch optimizer in a repeatable training loop.
+Build and train a multilayer neural network using `nn.Module`, activation functions, and the PyTorch training loop.
 
 The original 42-day roadmap remains the **fixed reference**. Day 31 stays in progress while Deep Learning continues from Day 32 onward.
